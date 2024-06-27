@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <div class="container">
+
+        <h3>Introduction</h3>
+        <p>Thank you for using Axies, {{ current_user.username }}!</p>
+        <p>Axies is a tool for the identification of personal values that are particularly important in a given context. Given a data set, the goal is to create a list of context-specific personal values by annotating some examples from the data. Axies consists of two phases: Exploration and Consolidation. Please start with the exploration and find the instructions for the individual phases on the respective pages.</p>
+       <!-- <p>Please read these <a href="{{ url_for('static', filename='pdf/axies-exploration-methodology.pdf') }}" target="_blank">
+                introductory explanations</a> for the exploration phase.</p>
+        <p>Please read these <a href="{{ url_for('static', filename='pdf/axies-consolidation-methodology.pdf') }}" target="_blank">
+                introductory explanations</a> for the consolidation phase.</p> -->
+
+    </div>
+{% endblock %}

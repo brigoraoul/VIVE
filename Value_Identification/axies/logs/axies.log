@@ -1,0 +1,502 @@
+2024-02-15 16:29:17,865 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-15 16:35:44,251 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-15 19:19:52,311 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-15 19:20:39,983 ERROR: Exception on /auth/login [POST] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    self.dialect.do_execute(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/auth/routes.py", line 17, in login
+    user = User.query.filter_by(username=form.username.data).first()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3397, in first
+    ret = list(self[0:1])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3171, in __getitem__
+    return list(res)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3503, in __iter__
+    return self._execute_and_instances(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3528, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1014, in execute
+    return meth(self, multiparams, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1127, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    util.raise_(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    self.dialect.do_execute(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: user
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.email AS user_email, user.password_hash AS user_password_hash, user.consent AS user_consent, user.working_context_id AS user_working_context_id 
+FROM user 
+WHERE user.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('TestUser', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2024-02-15 19:21:31,681 ERROR: Exception on /auth/register [POST] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    self.dialect.do_execute(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/auth/routes.py", line 42, in register
+    if form.validate_on_submit():
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_wtf/form.py", line 100, in validate_on_submit
+    return self.is_submitted() and self.validate()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/wtforms/form.py", line 318, in validate
+    return super(Form, self).validate(extra)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/wtforms/form.py", line 150, in validate
+    if not field.validate(self, extra):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/wtforms/fields/core.py", line 226, in validate
+    stop_validation = self._run_validation_chain(form, chain)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/wtforms/fields/core.py", line 246, in _run_validation_chain
+    validator(form, self)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/auth/forms.py", line 23, in validate_username
+    user = User.query.filter_by(username=username.data).first()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3397, in first
+    ret = list(self[0:1])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3171, in __getitem__
+    return list(res)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3503, in __iter__
+    return self._execute_and_instances(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3528, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1014, in execute
+    return meth(self, multiparams, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1127, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    util.raise_(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    self.dialect.do_execute(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: user
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.email AS user_email, user.password_hash AS user_password_hash, user.consent AS user_consent, user.working_context_id AS user_working_context_id 
+FROM user 
+WHERE user.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('TestUser', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2024-02-15 19:22:47,257 ERROR: Exception on /auth/login [POST] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    self.dialect.do_execute(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: user
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/auth/routes.py", line 17, in login
+    user = User.query.filter_by(username=form.username.data).first()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3397, in first
+    ret = list(self[0:1])
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3171, in __getitem__
+    return list(res)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3503, in __iter__
+    return self._execute_and_instances(context)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3528, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1014, in execute
+    return meth(self, multiparams, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1127, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    util.raise_(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 178, in raise_
+    raise exception
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    self.dialect.do_execute(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 593, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: user
+[SQL: SELECT user.id AS user_id, user.username AS user_username, user.email AS user_email, user.password_hash AS user_password_hash, user.consent AS user_consent, user.working_context_id AS user_working_context_id 
+FROM user 
+WHERE user.username = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('sdf', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2024-02-23 08:58:57,121 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:00:03,291 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 49, in explore
+    motivation, uc_motivation = explorator.get_next_motivation(
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 76, in get_next_motivation
+    motivation_id, distance = self.__get_next_motivation_closest_to_value(Context, UserContext, Value, Choice, Motivation, UserContextMotivation, similar_value_id)
+TypeError: cannot unpack non-iterable NoneType object
+2024-02-23 09:23:37,141 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:23:47,995 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 49, in explore
+    motivation, uc_motivation = explorator.get_next_motivation(
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 76, in get_next_motivation
+    motivation_id, distance = self.__get_next_motivation_closest_to_value(Context, UserContext, Value, Choice, Motivation, UserContextMotivation, similar_value_id)
+TypeError: cannot unpack non-iterable NoneType object
+2024-02-23 09:25:28,148 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:30:09,556 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 50, in explore
+    motivation, uc_motivation = explorator.get_next_motivation(
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 76, in get_next_motivation
+    motivation_id, distance = self.__get_next_motivation_closest_to_value(Context, UserContext, Value, Choice, Motivation, UserContextMotivation, similar_value_id)
+TypeError: cannot unpack non-iterable NoneType object
+2024-02-23 09:31:12,556 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:33:18,901 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:34:05,252 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:68]
+2024-02-23 09:34:36,272 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:36:34,574 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 09:37:10,424 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 49, in explore
+    motivation, uc_motivation = explorator.get_next_motivation(
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 76, in get_next_motivation
+    motivation_id, distance = self.__get_next_motivation_closest_to_value(Context, UserContext, Value, Choice, Motivation, UserContextMotivation, similar_value_id)
+TypeError: cannot unpack non-iterable NoneType object
+2024-02-23 09:37:21,059 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 09:38:55,565 ERROR: Exception on /add_value [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 223, in add_value
+    'text': ",".join(explorator.get_word_expansions(value_name)),
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 212, in get_word_expansions
+    tokens = [token for token in word_tokenize(seed.lower()) if not token in stop_words \
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 213, in <listcomp>
+    and self.lemmatizer.lemmatize(token) in self.expansion_model.vocab]
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/torch/nn/modules/module.py", line 771, in __getattr__
+    raise ModuleAttributeError("'{}' object has no attribute '{}'".format(
+torch.nn.modules.module.ModuleAttributeError: 'SentenceTransformer' object has no attribute 'vocab'
+2024-02-23 09:40:05,078 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:40:11,577 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 09:52:18,291 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:53:01,662 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 09:53:02,315 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 70, in explore
+    motivation, uc_motivation = explorator.get_next_motivation(
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 85, in get_next_motivation
+    motivation_id, distance = self.__farthest_first_traversal(Context, UserContext, Choice, Motivation, UserContextMotivation, Value, seen_motivation_ids)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 203, in __farthest_first_traversal
+    motivation_id = self.__get_motivation_id_from_index(Choice, Motivation, user_context.context_id, show_index)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 140, in __get_motivation_id_from_index
+    return random.randint(0, len(motivations))
+TypeError: object of type 'BaseQuery' has no len()
+2024-02-23 09:55:42,821 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:55:50,140 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 09:56:19,015 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 09:56:22,840 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 09:56:38,531 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 10:15:55,620 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 10:16:01,337 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 10:16:22,967 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 75, in explore
+    session['current_motivation_id'] = motivation.id
+AttributeError: 'NoneType' object has no attribute 'id'
+2024-02-23 10:18:05,265 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:74]
+2024-02-23 10:18:52,866 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 10:18:52,873 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 70, in explore
+    motivation, uc_motivation = explorator.get_next_motivation(
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 82, in get_next_motivation
+    motivation_id, distance = self.__get_random_motivation_index(Context, UserContext, Choice, Motivation, UserContextMotivation)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 113, in __get_random_motivation_index
+    index = random.randrange(self.size[context])
+KeyError: 'Ukraine Messages'
+2024-02-23 10:21:08,480 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 10:22:05,978 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 10:23:55,290 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 10:24:33,984 INFO: Showing a new ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:124]
+2024-02-23 10:33:16,140 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 10:33:49,271 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 10:36:20,796 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 10:36:25,945 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 10:36:37,761 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 10:37:08,383 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:119]
+2024-02-23 10:38:08,510 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 10:38:09,495 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:119]
+2024-02-23 10:38:10,501 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 10:38:39,709 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 11:43:10,114 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 11:44:06,285 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 11:46:16,519 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 11:47:03,715 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 11:47:10,802 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:119]
+2024-02-23 11:47:41,892 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 11:48:14,114 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:119]
+2024-02-23 11:48:33,346 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 11:52:07,386 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 11:55:28,679 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 11:55:29,266 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 75, in explore
+    session['current_motivation_id'] = motivation.id
+AttributeError: 'NoneType' object has no attribute 'id'
+2024-02-23 12:00:43,283 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 12:01:16,519 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 12:01:16,521 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 77, in explore
+    session['current_motivation_id'] = session.query(Motivation).count()
+AttributeError: 'SecureCookieSession' object has no attribute 'query'
+2024-02-23 12:02:53,672 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 12:05:47,991 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 12:05:47,998 ERROR: Exception on /explore [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 81, in explore
+    choice = Choice.query.filter_by(id=motivation.choice_id).first()
+AttributeError: 'NoneType' object has no attribute 'choice_id'
+2024-02-23 12:07:28,175 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 12:07:41,585 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 12:07:55,499 ERROR: Exception on /get_history [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 325, in get_history
+    hist = explorator.get_history(UserContext, UserContextMotivation, Motivation, Action, AnnotationAction)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 306, in get_history
+    motivations_ids, distances = self.__parse_distances(Motivation, UserContextMotivation, motivations_ids, user_context_id)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 334, in __parse_distances
+    distances = [(motivation.fft_distance, 'fft') if motivation.fft_distance \
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 334, in <listcomp>
+    distances = [(motivation.fft_distance, 'fft') if motivation.fft_distance \
+AttributeError: 'NoneType' object has no attribute 'fft_distance'
+2024-02-23 12:07:56,683 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 12:07:57,417 ERROR: Exception on /get_history [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 325, in get_history
+    hist = explorator.get_history(UserContext, UserContextMotivation, Motivation, Action, AnnotationAction)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 306, in get_history
+    motivations_ids, distances = self.__parse_distances(Motivation, UserContextMotivation, motivations_ids, user_context_id)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 334, in __parse_distances
+    distances = [(motivation.fft_distance, 'fft') if motivation.fft_distance \
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 334, in <listcomp>
+    distances = [(motivation.fft_distance, 'fft') if motivation.fft_distance \
+AttributeError: 'NoneType' object has no attribute 'fft_distance'
+2024-02-23 12:08:43,670 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 12:08:57,387 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 12:09:22,463 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:126]
+2024-02-23 12:09:35,809 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 13:00:44,078 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 13:01:00,385 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 13:03:55,136 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 13:04:23,695 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-23 13:14:44,022 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:126]
+2024-02-23 13:15:57,588 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:126]
+2024-02-23 13:17:14,638 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:126]
+2024-02-23 13:18:14,209 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 13:18:14,367 ERROR: Exception on /get_history [GET] [in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py:1449]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1519, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1517, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask/app.py", line 1503, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py", line 325, in get_history
+    hist = explorator.get_history(UserContext, UserContextMotivation, Motivation, Action, AnnotationAction)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 306, in get_history
+    motivations_ids, distances = self.__parse_distances(Motivation, UserContextMotivation, motivations_ids, user_context_id)
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 334, in __parse_distances
+    distances = [(motivation.fft_distance, 'fft') if motivation.fft_distance \
+  File "/Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/utils/backbone/explorator.py", line 334, in <listcomp>
+    distances = [(motivation.fft_distance, 'fft') if motivation.fft_distance \
+AttributeError: 'NoneType' object has no attribute 'fft_distance'
+2024-02-23 13:27:42,078 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 14:59:57,642 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-23 15:00:21,430 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:126]
+2024-02-23 15:38:21,867 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 17:19:33,428 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 17:21:16,945 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-23 17:23:56,529 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-26 11:01:45,459 INFO: Axies startup [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/__init__.py:76]
+2024-02-26 11:02:18,303 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]
+2024-02-26 11:02:25,558 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-26 11:03:32,021 INFO: Showing new motivation [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:69]
+2024-02-26 11:05:59,084 INFO: Showing previously unannotated ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:125]
+2024-02-26 11:06:08,237 INFO: Showing a new ValueCouple [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:130]
+2024-02-26 11:06:39,076 INFO: Showing seen motivation that was previously unannotated [in /Users/raoulbrigola/Documents/Documents/AIMaster/Thesis/MasterThesis/Value_Identification/axies/app/main/routes.py:64]

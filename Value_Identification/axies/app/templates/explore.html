@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <div class="row">
+      <div class="col">
+        <h1>Welcome to exploration, {{ current_user.username }}!</h1>
+        <br>
+          <p>The goal of the exploration phase is to derive a set of context-specific personal values, given a certain context. You will start with an empty list of values. You will be shown text messages ("Message: ...") and will be asked to annotate them as follows: </p>
+          <p><strong>1. Add values:</strong> Can you identify an underlying personal value in the message? If a value comes to mind, can you complete the following sentence with it: “The author composed this message, because {value} is important to him/her."? If yes, add the value to the list ("Add Value"). If the value is already in the list, select it ("Add value to message"). A value can be a single word or a term that contains multiple words.</p>
+          <p><strong>2. Add keywords:</strong> When you add a new value to the list or select a value from the list, think whether there are any keywords for that value and add them ("Add keyword"). Keywords can be words that appear in the message or words that generally describe the value.</p>
+          <p><strong>3. Related messages:</strong> When you add a new value, look at 2-3 potentially related messages ("Potential Related Message").</p>
+
+        <p>When you completed these three steps for a message, you can move on to the next message ("Next Message"). The exploration can be stopped when no new values are added after three or more consecutive new messages. However, at least 30 messages should be annotated with values. In case of doubt, please consult the <a href="{{ url_for('static', filename='pdf/exploration-instructions.pdf') }}" target="_blank"> exploration instructions</a>.</p>
+        <div class="list-group">
+          <div class="list-group-item">
+              <h4 class="mb" style="font-size: 20px;">Message:</h4>
+              <p class="mb" style="font-size: 20px;">{{ motivation.motivation_en }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load jQuery for AJAX and custom javascript functions-->
+    <script type=text/javascript src="{{url_for('static', filename='js/jquery.js') }}"></script>
+    <script type=text/javascript src="{{url_for('static', filename='js/main.js') }}"></script>
+    <script type=text/javascript src="{{url_for('static', filename='js/d3.min.js') }}"></script>
+    <!-- Custom CSS -->
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class='form-group'>
+          <form action="javascript:void(0);" id='value-form' class="form-inline">
+            {{ value_form.hidden_tag() }}
+            {{ value_form.value.label(id="value-form-label") }} {{ value_form.value(size=20, class="form-control") }} {{ value_form.submit(class="btn btn-primary") }}
+          </form>
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <br>
+        <br>
+        <br>
+        <div class="pull-right">
+          <button id="next-motivation" type="button" disabled=true class="btn btn-primary">Next Message <span class="glyphicon glyphicon-forward"></span></button>
+          <button id="skip-uncomprehensible" type="button" class="btn btn-danger">Not Comprehensible</button>
+          <button id="skip-no-value" type="button" class="btn btn-danger">No New Value Present</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Will be filled with values -->
+    <div class="row">
+      <div class="col-md-6 value-list-no-padding-left">
+        <ul class="list-group float left" id='value-list'></ul>
+      </div>
+      <div>
+        <p class="pull-right" style="font-size: 30px;">  {{ counter }}</p>
+        <h4 class="pull-right">Number of annotated messages: </h4>
+      </div>
+    </div>
+
+
+    <!-- Bind functions for async database interaction -->
+    <script type=text/javascript>
+      $(function() {
+        $('ul').on('click', '.add_keyword', function(event){getKeywords(event=event);});
+      });
+      $(function() {
+        $('ul').on('click', '.remove_keyword', removeKeyword);
+      });
+      $(function() {
+        $('ul').on('click', '.remove_value', removeValue);
+      });
+      $('ul').on('click', '.similar-motivations-button', function(event){showSimilarMotivation(event=event);});
+      $(function() {
+        $('#value-form').submit(function() {
+          getValues();
+        });
+      });
+      $(function() {
+        $('document').ready(function() {
+          $('#next-motivation').prop('disabled', false);
+          getValues(reload=true);
+        });
+      });
+      $(function() {
+        $('#next-motivation').on('click', function(event){window.location.reload();});
+      });
+      $(function() {
+        $('#skip-uncomprehensible').on('click', function(event){skipMotivation(1);});
+      });
+      $(function() {
+        $('#skip-no-value').on('click', function(event){skipMotivation(2);});
+      });
+      $(function() {
+        $('#skip-already-present').on('click', function(event){skipMotivation(3);});
+      });
+      $(function() {
+        $(document).on('annotation_update', function(event, params){
+          if (typeof params === 'undefined' || params.prevent_button_update === false) {
+            switchButtons();
+          }
+          drawHistory();
+        });
+      });
+    </script>
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+    {% endblock %}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <!-- Announcement row -->
+    <div class="row pagination-centered">
+        <div class="col-md-2 "></div>
+        <div class="col-md-8 ">
+            <h1>You are about to start Consolidation, {{ current_user.username }}!</h1>
+             <div>
+                <button type="button" class="btn btn-primary" id="start-consolidate">I understand, continue</button>
+            </div>
+        </div>
+        <div class="col-md-2 "></div>
+    </div>
+
+    <!-- Load jQuery for AJAX and custom javascript functions-->
+    <script type=text/javascript src="{{url_for('static', filename='js/jquery.js') }}"></script>
+
+    <!-- Bind functions for async database interaction -->
+    <script type=text/javascript>
+        $(function() {
+            $('#start-consolidate').on('click', function () {
+                $.getJSON($SCRIPT_ROOT + '/start_consolidation', {}, function(data) {
+                    if (data.success) {
+                        window.location.reload();
+                    }
+                });
+            });
+        });
+
+    </script>
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+    {% endblock %}

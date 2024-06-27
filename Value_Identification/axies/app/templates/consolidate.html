@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <!-- Announcement row -->
+    <div class="row">
+        <div class="col">
+            <h1>Welcome to consolidation, {{ current_user.username }}!</h1>
+            <br/>
+            <p>The goal of the consolidation phase is to refine the value list that you created in the exploration phase. To do this, please <strong>perform the following steps in their order.</strong></p>
+            <h4>1. Check Values</h4>
+            <p>For each value, decide whether the value represents a particularly important personal value in the context of the Ukraine Messages. If the answer is "yes", leave the value in the list, if the answer is "no", delete the value from the list. Deleting a value cannot be undone!</p>
+            <h4>2. Check Keywords</h4>
+            <p>For each value remaining after step 1, delete any keywords that do not seem as suitable keywords for that value. Optionally, add additional keywords that seem suitable given the context.</p>
+            <h4>3. Add description</h4>
+            <p>For each value, add a short description. Explain the value in 2-3 sentences and what it means in the given context.</p>
+            <br/>
+        </div>
+    </div>
+
+    <!-- Modal for adding defining goal -->
+    <div class="modal fade" id="addDefiningGoalPopup" tabindex="-1" role="dialog" aria-labelledby="addDefiningGoalPopupTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header" id="addDefiningGoalPopupHeader">
+                <h3 class="modal-title" id="addDefiningGoalPopupTitle">Add Defining Goal</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                <div class="col-sm-12 form-group">
+                <form class="form-horizontal" id="add-defining-goal-form" action="javascript:void(0);">
+                    <textarea class="form-control" rows=3 id="defining-goal-textarea"></textarea>
+                    <br/>
+                    <input type="button" class="btn btn-primary pull-right defining-goal-submit" value="Save"/>
+                </form>
+                </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>
+
+
+    <!-- Load jQuery for AJAX and custom javascript functions-->
+    <script type=text/javascript src="{{url_for('static', filename='js/jquery.js') }}"></script>
+    <script type=text/javascript src="{{url_for('static', filename='js/main.js') }}"></script>
+    <script type=text/javascript src="{{url_for('static', filename='js/d3.min.js') }}"></script>
+    <script type=text/javascript src="{{url_for('static', filename='js/consolidate.js') }}"></script>
+
+    <!-- Will be filled with values -->
+    <div class="row">
+        <div class="col-md-6 value-list-no-padding-left">
+          <ul class="list-group float left" id='value-list'></ul>
+        </div>
+    </div>
+
+    <!-- Bind functions for async database interaction -->
+    <script type=text/javascript>
+        // Consolidation specific
+        $(function() {
+            $('#merge-value-form').submit(mergeValuesCSD);
+        });
+        $(function() {
+            $('#no-merge').on('click', skipPairCSD);
+        });
+        $(function() {
+            $('#next-pair').on('click', function() {window.location.reload();});
+        });
+
+        // Value functions
+        $(function() {
+            $('#value-form').submit(addValueCSD);
+        });
+        $(function() {
+            $('ul').on('click', '.remove_value', removeValueCSD);
+        });
+
+        // Keyword functions
+        $(function() {
+            $('ul').on('click', '.add_keyword', addKeywordCSD);
+        });
+        $(function() {
+            $('ul').on('click', '.remove_keyword', removeKeywordCSD);
+        });
+
+        $(function() {
+            $('#pick-pair').on('click', updateValuePicker);
+        });
+        $(function() {
+            $('ul').on('click', '.open-dg-popup-button', function (e) {getDefiningGoal(e);})
+            $('.defining-goal-submit').on('click', function(e) {addDefiningGoal(e);});
+        });
+
+
+        // User performs action
+        $(function() {
+            $(document).on('consolidation_action', function(event, params){
+                if (typeof params === 'undefined' || params.prevent_button_update === false) {
+                    switchButtons();
+                }
+                drawHistoryCSD();
+            });
+        });
+        $(function() {
+            $('#show-next-pair').on('click', function () {
+                preloadNextPair();
+            });
+        });
+        $(function(){
+            $(".dropdown-menu").on('click', 'li a', function() {
+                var button = $(this).closest('#value-selector-container').find('.btn');
+                button.text($(this).text());
+                button.val($(this).text());
+                button.prop('id', $(this).prop('id'))
+            });
+        });
+
+        // Document load
+        $(function() {
+            $('document').ready(function() {
+                {% if value_pair[0] is not none and value_pair[1] is not none %}
+                getKeywordsCSD({{ value_pair[0].id }}).then(function (data) {showKeywords({{ value_pair[0].id }}, data.keywords, prefix="merge-");});
+                getKeywordsCSD({{ value_pair[1].id }}).then(function (data) {showKeywords({{ value_pair[1].id }}, data.keywords, prefix="merge-");});
+                {% endif %}
+                getValuesCSD();
+                drawHistoryCSD();
+            });
+        });
+    </script>
+
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+    {% endblock %}
