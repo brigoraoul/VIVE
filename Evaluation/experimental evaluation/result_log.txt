@@ -1,0 +1,2690 @@
+Evaluation metrics for ['Dictionary']:
+Recall:  0.6014528630516418
+Precision:  1.0
+Evaluation metrics for ['LLM_1']:
+Recall:  0.22678111051538162
+Precision:  0.047619047619047616
+Evaluation metrics for ['Dictionary', 'LLM_1']:
+Recall:  0.627634920078764
+Precision:  0.13636363636363635--------------------------------------------------------------------------------------------------
+2024-04-17 11:39:59.102861
+Evaluation metrics for ['Dictionary']:
+Recall:  0.75
+Precision:  0.6
+
+--------------------------------------------------------------------------------------------------
+2024-04-17 11:41:39.327721
+Evaluation metrics for ['Dictionary']:
+Recall:  0.75
+Precision:  0.6
+--------------------------------------------------------------------------------------------------
+2024-04-17 11:53:42.768027
+Evaluation metrics for ['Dictionary']:
+Recall:  0.75
+Precision:  0.6
+
+--------------------------------------------------------------------------------------------------
+2024-04-17 12:47:42.239522
+Evaluation metrics for ['Dictionary']:
+Recall:  0.25
+Precision:  0.6
+
+--------------------------------------------------------------------------------------------------
+2024-04-17 13:50:59.851509
+Evaluation metrics for ['Dictionary']:
+Recall:  0.2727272727272727
+Precision:  0.6
+
+--------------------------------------------------------------------------------------------------
+2024-04-17 13:51:26.165232
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 12:36:54.174511
+Evaluation metrics for ['Dictionary']:
+Recall:  0.16666666666666666
+Precision:  0.6
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 12:39:24.928673
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 12:42:51.933020
+Evaluation metrics for ['Dictionary']:
+Recall:  0.3333333333333333
+Precision:  0.2
+
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:22:37.598804
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:37:13.090480
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:37:51.169435
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:39:50.898568
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:41:08.440056
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:49:23.820880
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:49:46.768084
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:50:11.889631
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:51:40.448454
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:52:19.407665
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:52:38.900413
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 14:53:27.107909
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:08:21.218428
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:11:46.206582
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:14:19.660166
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:28:42.802713
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:30:59.263971
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:33:03.731242
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:39:19.680991
+Evaluation metrics for ['Dictionary']:
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:39:56.654574
+Evaluation metrics for ['Dictionary']:
+Recall:  0.6119402985074627
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:42:01.127885
+Evaluation metrics for ['Dictionary']:
+Recall:  0.6119402985074627
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:42:24.789045
+Evaluation metrics for ['Dictionary']:
+Recall:  0.6119402985074627
+Precision:  0.2411764705882353
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:43:37.356621
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 15:43:58.682677
+
+--------------------------------------------------------------------------------------------------
+2024-04-23 16:32:43.005807
+
+--------------------------------------------------------------------------------------------------
+2024-04-25 11:15:09.030737
+Evaluation metrics for ['Dictionary']:
+Recall:  0.6119402985074627
+Precision:  0.2411764705882353
+
+--------------------------------------------------------------------------------------------------
+2024-04-30 10:55:06.286563
+
+--------------------------------------------------------------------------------------------------
+2024-04-30 10:57:19.051422
+
+--------------------------------------------------------------------------------------------------
+2024-04-30 11:01:07.928068
+
+--------------------------------------------------------------------------------------------------
+2024-04-30 15:23:36.612849
+
+--------------------------------------------------------------------------------------------------
+2024-04-30 15:35:17.813708
+Evaluation metrics for ['Dictionary']:
+Recall:  0.6119402985074627
+Precision:  0.2411764705882353
+
+--------------------------------------------------------------------------------------------------
+2024-04-30 15:36:44.355235
+Evaluation metrics for ['Dictionary']:
+Recall:  0.6119402985074627
+Precision:  0.2411764705882353
+
+--------------------------------------------------------------------------------------------------
+2024-04-30 15:43:25.165762
+
+--------------------------------------------------------------------------------------------------
+2024-04-30 15:52:01.460819
+Evaluation metrics for ['Dictionary']:
+Recall:  0.6119402985074627
+Precision:  0.2411764705882353
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 14:21:11.110259
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 14:22:22.655418
+Evaluation metrics for ['LLM_6']:
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 14:38:02.595523
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 14:39:30.433567
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 14:55:35.150567
+Evaluation metrics for ['LLM_6']:
+Recall:  0
+Precision:  0.0
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 15:04:15.449244
+Evaluation metrics for ['LLM_6']:
+Recall:  0
+Precision:  0.0
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 15:15:45.284484
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 16:54:39.980545
+Evaluation metrics for ['Dictionary']:
+Recall:  0.582089552238806
+Precision:  0.22941176470588234
+
+--------------------------------------------------------------------------------------------------
+2024-05-02 17:06:12.784398
+Evaluation metrics for ['Dictionary']:
+Recall:  0.582089552238806
+Precision:  0.22941176470588234
+Accuracy:  0.03529411764705882
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 16:45:29.885749
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5714285714285714
+Precision:  0.8
+Accuracy:  0.0
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 16:47:44.537712
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5735294117647058
+Precision:  0.4588235294117647
+Accuracy:  0.0
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 18:36:03.629846
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 18:39:11.920511
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5625
+Precision:  0.4235294117647059
+Accuracy:  0.8764705882352941
+Runtime:  579.5112998485565
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 19:12:22.919969
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5
+Precision:  0.6
+Accuracy:  0.0
+Weighted accuracy:  0
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 19:13:56.896539
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5
+Precision:  0.5
+Accuracy:  0.0
+Weighted accuracy:  0
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 19:15:12.677299
+Evaluation metrics for ['LLM_7']:
+Recall:  0.6
+Precision:  0.6
+Accuracy:  0.0
+Weighted accuracy:  0
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 19:17:18.116425
+Evaluation metrics for ['LLM_7']:
+Recall:  0.6666666666666666
+Precision:  0.8
+Accuracy:  0.0
+Weighted accuracy:  0
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 20:00:04.852833
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5597014925373134
+Precision:  0.4411764705882353
+Accuracy:  0.0
+Weighted accuracy:  0
+Confusion matrix:
+[[20  0  0  0  0  7]
+ [ 1 15  0  0  2  3]
+ [ 1  0 14  0  0 14]
+ [ 0  0  0  1  0  3]
+ [ 2  1  0  0 20 17]
+ [ 1  5  1  0 12 30]]
+Runtime:  577.4642150402069
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 20:28:44.312000
+Evaluation metrics for ['Dictionary']:
+Recall:  0.582089552238806
+Precision:  0.22941176470588234
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 20:57:21.500843
+Evaluation metrics for ['Dictionary']:
+Recall:  0.582089552238806
+Precision:  0.22941176470588234
+Accuracy:  0.4411764705882353
+Weighted accuracy:  0
+Confusion matrix:
+[[14  0  2  0  0 11]
+ [ 4  1  0  0  0 16]
+ [ 0  0 18  0  0 11]
+ [ 0  0  0  0  1  3]
+ [ 2  0  2  0  4 32]
+ [10  0  1  0  0 38]]
+Runtime:  0.02231907844543457
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5755395683453237
+Precision:  0.47058823529411764
+Accuracy:  0.5647058823529412
+Weighted accuracy:  0
+Confusion matrix:
+[[ 5  0  0  0 16  6]
+ [ 0 17  0  0  3  1]
+ [ 0  0 17  0  0 12]
+ [ 0  0  0  1  1  2]
+ [ 0  1  0  0 24 15]
+ [ 0  5  1  0 11 32]]
+Runtime:  589.0798690319061
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:09:48.226132
+Evaluation metrics for ['Dictionary']:
+Recall:  0.582089552238806
+Precision:  0.22941176470588234
+Accuracy:  0.4411764705882353
+Weighted accuracy:  0
+Confusion matrix:
+[[14  0  2  0  0 11]
+ [ 4  1  0  0  0 16]
+ [ 0  0 18  0  0 11]
+ [ 0  0  0  0  1  3]
+ [ 2  0  2  0  4 32]
+ [10  0  1  0  0 38]]
+Runtime:  0.022360801696777344
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:20:21.342024
+Evaluation metrics for ['Dictionary', 'LLM_7']:
+Recall:  0.8
+Precision:  0.8
+Accuracy:  0.96
+Weighted accuracy:  0.8
+Runtime:  22.28931999206543
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:22:29.473541
+Evaluation metrics for ['Dictionary', 'LLM_7']:
+Recall:  0.6666666666666666
+Precision:  0.8
+Accuracy:  0.6
+Weighted accuracy:  0.9199999999999999
+Runtime:  19.008661031723022
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:23:20.546319
+Evaluation metrics for ['Dictionary', 'LLM_7']:
+Recall:  0.75
+Precision:  0.6
+Accuracy:  0.6
+Weighted accuracy:  0.9199999999999999
+Runtime:  18.47524881362915
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:25:59.045859
+Evaluation metrics for ['Dictionary', 'LLM_7']:
+Recall:  0.5114942528735632
+Precision:  0.5235294117647059
+Accuracy:  0.4647058823529412
+Weighted accuracy:  0.8623529411764701
+Runtime:  574.8687400817871
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:38:14.336909
+Evaluation metrics for ['Dictionary', 'LLM_7']:
+Recall:  0
+Precision:  0.0
+Accuracy:  0.28823529411764703
+Weighted accuracy:  0.8576470588235293
+Runtime:  577.5943968296051
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:57:49.523134
+Evaluation metrics for ['Dictionary']:
+Recall:  0
+Precision:  0.0
+Accuracy:  0.28823529411764703
+Weighted accuracy:  0
+Confusion matrix:
+[[ 0  0  0  0  0 27]
+ [ 0  0  0  0  0 21]
+ [ 0  0  0  0  0 29]
+ [ 0  0  0  0  0  4]
+ [ 0  0  0  0  0 40]
+ [ 0  0  0  0  0 49]]
+Runtime:  0.02183818817138672
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:58:17.021799
+Evaluation metrics for ['Dictionary']:
+Recall:  0.582089552238806
+Precision:  0.22941176470588234
+Accuracy:  0.4411764705882353
+Weighted accuracy:  0
+Confusion matrix:
+[[14  0  2  0  0 11]
+ [ 4  1  0  0  0 16]
+ [ 0  0 18  0  0 11]
+ [ 0  0  0  0  1  3]
+ [ 2  0  2  0  4 32]
+ [10  0  1  0  0 38]]
+Runtime:  0.021811962127685547
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 21:59:13.848140
+Evaluation metrics for ['Dictionary']:
+Recall:  0.582089552238806
+Precision:  0.22941176470588234
+Accuracy:  0.4117647058823529
+Weighted accuracy:  0.8705882352941173
+Single label:  False
+Runtime:  0.021870136260986328
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 22:31:43.111339
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 22:34:10.473898
+Evaluation metrics for ['LLM_8']:
+Recall:  0
+Precision:  0.0
+Accuracy:  0.2
+Weighted accuracy:  0.8400000000000001
+Single label:  False
+Runtime:  32.41887903213501
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 22:37:37.104533
+Evaluation metrics for ['LLM_8']:
+Recall:  0
+Precision:  0.0
+Accuracy:  0.2
+Weighted accuracy:  0.8400000000000001
+Single label:  False
+Runtime:  25.759490966796875
+
+--------------------------------------------------------------------------------------------------
+2024-05-07 22:39:19.831510
+Evaluation metrics for ['LLM_8']:
+Recall:  0
+Precision:  0.0
+Accuracy:  0.2
+Weighted accuracy:  0.8400000000000001
+Single label:  False
+Runtime:  9.555213928222656
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 11:49:18.031213
+Evaluation metrics for ['LLM_8']:
+Recall:  0
+Precision:  0.0
+Accuracy:  0.2
+Weighted accuracy:  0.8400000000000001
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 11:51:34.331861
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 11:51:56.395648
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5714285714285714
+Precision:  0.8
+Accuracy:  0.6
+Weighted accuracy:  0.8800000000000001
+[<PersonalValueAgent.db_utils.models.value.Value object at 0x7fb388c2f370>]
+['help for refugees']
+Single label:  False
+Runtime:  17.78169298171997
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 15:39:03.853070
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5
+Precision:  0.6
+Accuracy:  0.4
+Weighted accuracy:  0.8399999999999999
+Single label:  False
+Runtime:  20.328890800476074
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 15:56:51.059582
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5454545454545454
+Precision:  0.6
+Exact Match Accuracy:  0.5
+Partial Correctness Accuracy:  0.8800000000000001
+Single label:  False
+Runtime:  44.404083013534546
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 16:00:34.511375
+Evaluation metrics for ['LLM_7']:
+Recall:  0.6
+Precision:  0.6
+Exact Match Accuracy:  0.5
+Confusion matrix:
+[[0 0 0 0 2 0]
+ [0 2 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 2 1]
+ [0 0 0 0 0 3]]
+Single label:  True
+Runtime:  40.47719407081604
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 17:51:47.049456
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.75
+Precision:  0.6
+Exact Match Accuracy:  0.4
+Partial Correctness Accuracy:  0.8799999999999999
+Single label:  False
+Runtime:  45.54972219467163
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 18:06:28.345927
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.75
+Precision:  0.5454545454545454
+Exact Match Accuracy:  0.4
+Partial Correctness Accuracy:  0.86
+Single label:  False
+Runtime:  46.316884994506836
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 18:09:20.786378
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.75
+Precision:  0.5454545454545454
+Exact Match Accuracy:  0.4
+Partial Correctness Accuracy:  0.86
+Single label:  False
+Runtime:  39.5280499458313
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 18:15:46.009759
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.75
+Precision:  0.6
+{'shelter': 2, 'mental health': 2, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 2, 'no label': 0}
+{'shelter': 2, 'mental health': 2, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 6, 'no label': 0}
+Exact Match Accuracy:  0.4
+Partial Correctness Accuracy:  0.9
+Single label:  False
+Runtime:  46.29535984992981
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 18:19:41.675435
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.625
+Precision:  0.5555555555555556
+{'shelter': 2, 'mental health': 2, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1, 'no label': 0}
+{'shelter': 2, 'mental health': 2, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 5, 'no label': 5}
+Exact Match Accuracy:  0.3
+Partial Correctness Accuracy:  0.8833333333333332
+Single label:  False
+Runtime:  39.32143592834473
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 18:28:47.794246
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.625
+Precision:  0.5555555555555556
+Precision per value:
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 18:32:19.289842
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.75
+Precision:  0.5454545454545454
+Precision per value:
+{'shelter': 1.0, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.2857142857142857, 'no label': 0.0}
+Recall per value:
+
+--------------------------------------------------------------------------------------------------
+2024-05-13 18:37:09.221012
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.75
+Precision:  0.6
+Precision per value:
+{'shelter': 1.0, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.3333333333333333, 'no label': 0.0}
+Recall per value:
+{'shelter': 0.6666666666666666, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+Exact Match Accuracy:  0.4
+Partial Correctness Accuracy:  0.9
+Single label:  False
+Runtime:  43.09626889228821
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 14:06:25.831830
+Length of test set:  15
+Evaluation metrics for ['LLM_7']:
+Recall:  0.75
+Precision:  0.5
+Precision per value:
+{'shelter': 0.75, 'mental health': 1.0, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 0.2, 'no label': 0.0}
+Recall per value:
+{'shelter': 0.75, 'mental health': 0.75, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+Exact Match Accuracy:  0.26666666666666666
+Partial Correctness Accuracy:  0.8666666666666668
+Single label:  False
+Runtime:  63.39195275306702
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 14:17:00.393545
+Length of test set:  170
+Evaluation metrics for ['LLM_7']:
+Recall:  0.5681818181818182
+Precision:  0.6048387096774194
+Precision per value:
+{'shelter': 0.9047619047619048, 'mental health': 1.0, 'staying connected': 0.8421052631578947, 'disappointment in this city/country': 1.0, 'help for refugees': 0.30158730158730157, 'no label': 0.0}
+Recall per value:
+{'shelter': 0.6551724137931034, 'mental health': 0.7142857142857143, 'staying connected': 0.5517241379310345, 'disappointment in this city/country': 0.08333333333333333, 'help for refugees': 0.5588235294117647, 'no label': 0}
+Exact Match Accuracy:  0.4235294117647059
+Partial Correctness Accuracy:  0.8960784313725491
+Single label:  False
+Runtime:  588.6957790851593
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:09:05.532100
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.75
+Precision:  0.6
+Precision per value:
+{'shelter': 1.0, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.3333333333333333, 'no label': 0.0}
+Recall per value:
+{'shelter': 0.6666666666666666, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+Exact Match Accuracy:  0.4
+Confusion matrix:
+[[0 0 0 0 2 1]
+ [0 0 0 0 2 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 2 0]
+ [0 0 0 0 0 2]]
+Single label:  True
+Runtime:  45.332865953445435
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:15:06.205517
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.0
+Precision:  0
+Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0.0}
+Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0}
+Exact Match Accuracy:  0.2
+Confusion matrix:
+[[0 0 0 0 0 3]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 2]]
+Single label:  True
+Runtime:  23.549540996551514
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:19:46.120569
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.0
+Precision:  0
+Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0.0}
+Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0}
+Exact Match Accuracy:  0.2
+Confusion matrix:
+[[0 0 0 0 0 3]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 2]]
+Single label:  True
+Runtime:  23.037459135055542
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:46:55.298651
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.0
+Precision:  0
+Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0.0}
+Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0}
+Exact Match Accuracy:  0.2
+Confusion matrix:
+[[0 0 0 0 0 3]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 2]]
+Single label:  True
+Runtime:  25.579041004180908
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:51:22.459693
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.0
+Precision:  0
+Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0.0}
+Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0}
+Exact Match Accuracy:  0.2
+Confusion matrix:
+[[0 0 0 0 0 3]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 2]]
+Single label:  True
+Runtime:  25.469832181930542
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:56:14.715932
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.0
+Precision:  0
+Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0.0}
+Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0}
+Exact Match Accuracy:  0.2
+Confusion matrix:
+[[0 0 0 0 0 3]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 2]]
+Single label:  True
+Runtime:  35.46439599990845
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:57:22.204227
+Length of test set:  10
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:58:00.711660
+Length of test set:  10
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 15:58:59.745979
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.0
+Precision:  0
+Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0.0}
+Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0}
+Exact Match Accuracy:  0.2
+Confusion matrix:
+[[0 0 0 0 0 3]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 2]]
+Single label:  True
+Runtime:  21.95614790916443
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 16:00:38.997618
+Length of test set:  10
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 16:07:22.248040
+Length of test set:  10
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 23:09:15.333773
+Length of test set:  10
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 23:11:29.975739
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.0
+Precision:  0
+Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0.0}
+Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0}
+Exact Match Accuracy:  0.2
+Confusion matrix:
+[[0 0 0 0 0 3]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 2]
+ [0 0 0 0 0 2]]
+Single label:  True
+Runtime:  27.389138221740723
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 23:12:44.421984
+Length of test set:  10
+
+--------------------------------------------------------------------------------------------------
+2024-05-14 23:14:06.321595
+Length of test set:  10
+Evaluation metrics for ['LLM_7']:
+Recall:  0.875
+Precision:  0.7
+Precision per value:
+{'shelter': 0.75, 'mental health': 0.6666666666666666, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.6666666666666666, 'no label': 0}
+Recall per value:
+{'shelter': 1.0, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+Exact Match Accuracy:  0.7
+Confusion matrix:
+[[3 0 0 0 0 0]
+ [0 2 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 1 0 0 0 0]
+ [0 0 0 0 2 0]
+ [1 0 0 0 1 0]]
+Single label:  True
+Runtime:  19.313924074172974
+
+--------------------------------------------------------------------------------------------------
+SINGLE-LABEL: FORCING THE MODEL TO PICK ONE VALUE, THEREFORE NO MESSAGES WITH "NO-LABEL" --> HIGH RECALL, LOW PRECISION
+
+2024-05-15 11:03:42.590717
+Length of test set:  167
+Evaluation metrics for ['LLM_7']:
+Recall:  0.9206349206349206
+Precision:  0.6946107784431138
+Precision per value:
+{'shelter': 0.7941176470588235, 'mental health': 0.9310344827586207, 'staying connected': 0.725, 'disappointment in this city/country': 1.0, 'help for refugees': 0.48333333333333334, 'no label': 0}
+Recall per value:
+{'shelter': 0.9642857142857143, 'mental health': 1.0, 'staying connected': 1.0, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.9354838709677419, 'no label': 0}
+Exact Match Accuracy:  0.6823529411764706
+Confusion matrix:
+[[27  0  0  0  1  0]
+ [ 0 27  0  0  0  0]
+ [ 0  0 29  0  0  0]
+ [ 0  1  1  4  5  0]
+ [ 0  0  2  0 29  0]
+ [ 7  1  8  0 25  0]]
+Single label:  True
+Runtime:  257.2118980884552
+
+--------------------------------------------------------------------------------------------------
+SINGLE-LABEL: DOUBLE-CHECKING PICKED VALUE IN SECOND PROMPT,  --> HIGH PRECISION, LOW RECALL
+
+2024-05-15 11:21:50.499880
+Length of test set:  167
+Evaluation metrics for ['LLM_7']:
+Recall:  0.6507936507936508
+Precision:  0.9010989010989011
+Precision per value:
+{'shelter': 0.9545454545454546, 'mental health': 0.9565217391304348, 'staying connected': 1.0, 'disappointment in this city/country': 1.0, 'help for refugees': 0.72, 'no label': 0.0}
+Recall per value:
+{'shelter': 0.75, 'mental health': 0.8148148148148148, 'staying connected': 0.6551724137931034, 'disappointment in this city/country': 0.18181818181818182, 'help for refugees': 0.5806451612903226, 'no label': 0}
+Exact Match Accuracy:  0.6764705882352942
+Confusion matrix:
+[[21  0  0  0  1  6]
+ [ 0 22  0  0  0  5]
+ [ 0  0 19  0  0 10]
+ [ 0  0  0  2  0  9]
+ [ 0  0  0  0 18 13]
+ [ 1  1  0  0  6 33]]
+Single label:  True
+Runtime:  459.22066926956177
+
+--------------------------------------------------------------------------------------------------
+SINGLE-LABEL: DOUBLE-CHECKING PICKED VALUE IN SECOND PROMPT,  --> HIGH PRECISION, LOW RECALL
+
+2024-05-15 11:57:12.185958
+Length of test set:  167
+Evaluation metrics for ['LLM_7']:
+Recall:  0.8174603174603174
+Precision:  0.7923076923076923
+Precision per value:
+{'shelter': 0.7857142857142857, 'mental health': 0.9310344827586207, 'staying connected': 0.9642857142857143, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5609756097560976, 'no label': 0.0}
+Recall per value:
+{'shelter': 0.7857142857142857, 'mental health': 1.0, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7419354838709677, 'no label': 0}
+Exact Match Accuracy:  0.7235294117647059
+Confusion matrix:
+[[22  0  0  0  1  5]
+ [ 0 27  0  0  0  0]
+ [ 0  0 27  0  0  2]
+ [ 0  1  0  4  3  3]
+ [ 0  0  1  0 23  7]
+ [ 6  1  0  0 14 20]]
+Single label:  True
+Runtime:  413.70917296409607
+
+--------------------------------------------------------------------------------------------------
+2024-05-15 17:45:19.094493
+Length of test set:  5
+Evaluation metrics for ['LLM_7']:
+Recall:  1.0
+Precision:  0.8
+Precision per value:
+{'shelter': 1.0, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.6666666666666666, 'no label': 0}
+Recall per value:
+{'shelter': 1.0, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+Exact Match Accuracy:  0.023529411764705882
+Confusion matrix:
+[[1 0 0 0 0 0]
+ [0 1 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 2 0]
+ [0 0 0 0 1 0]]
+Single label:  True
+Runtime:  24.996573209762573
+
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 14:56:21.052824
+Length of test set:  5
+Evaluation metrics for ['Dictionary']:
+Recall:  0.25
+Precision:  1.0
+Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.5, 'no label': 0}
+Exact Match Accuracy:  0.011764705882352941
+Confusion matrix:
+[[0 0 0 0 0 1]
+ [0 0 0 0 0 1]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 1 1]
+ [0 0 0 0 0 1]]
+Single label:  True
+Runtime:  0.0008709430694580078
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 14:57:15.261080
+Length of test set:  170
+Evaluation metrics for ['Dictionary']:
+Recall:  0.29545454545454547
+Precision:  0.582089552238806
+Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+Recall per value:
+{'shelter': 0.5517241379310345, 'mental health': 0.03571428571428571, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.11764705882352941, 'no label': 0}
+Exact Match Accuracy:  0.38235294117647056
+Partial Correctness Accuracy:  0.8813725490196074
+Single label:  False
+Runtime:  0.02191781997680664
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:01:49.373917
+Length of test set:  170
+Single label:  False
+Runtime:  0.022495031356811523
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.29545454545454547
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5517241379310345, 'mental health': 0.03571428571428571, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.11764705882352941, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Partial Correctness Accuracy:  0.8813725490196074
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:03:44.205835
+Length of test set:  167
+Single label:  True
+Runtime:  0.020782947540283203
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[14  0  2  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 0  0 18  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:10:47.973804
+Length of test set:  167
+Single label:  True
+Runtime:  0.021964073181152344
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[14  0  2  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 0  0 18  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:12:15.876641
+Length of test set:  167
+Single label:  True
+Runtime:  0.021466732025146484
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:12:58.495362
+Length of test set:  167
+Single label:  True
+Runtime:  0.022099971771240234
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[14  0  2  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 0  0 18  0  0 11]
+ [ 1  0  0  0  1  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:18:27.834997
+Length of test set:  167
+Single label:  True
+Runtime:  0.021285057067871094
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[14  0  2  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 0  0 18  0  0 11]
+ [ 1  0  0  0  1  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:23:24.755534
+Length of test set:  167
+Single label:  True
+Runtime:  0.021329879760742188
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:25:23.833693
+Length of test set:  167
+Single label:  True
+Runtime:  0.0210113525390625
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:25:55.528217
+Length of test set:  167
+Single label:  True
+Runtime:  0.021355867385864258
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:30:30.252228
+Length of test set:  167
+Single label:  True
+Runtime:  0.02207779884338379
+Model:  llama3
+Evaluation metrics for ['Dictionary']:
+     Recall:  0.30952380952380953
+     Precision:  0.582089552238806
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 15:42:42.828082
+Length of test set:  167
+Runtime:  399.71220421791077
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Recall:  0.8174603174603174
+     Precision:  0.7803030303030303
+     Precision per value:
+{'shelter': 0.8571428571428571, 'mental health': 0.9, 'staying connected': 0.9285714285714286, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5454545454545454, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8571428571428571, 'mental health': 1.0, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.18181818181818182, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     Exact Match Accuracy:  0.7176470588235294
+     Confusion matrix:
+[[24  0  0  0  1  3]
+ [ 0 27  0  0  0  0]
+ [ 0  0 26  0  0  3]
+ [ 0  1  0  2  3  5]
+ [ 0  1  1  0 24  5]
+ [ 4  1  1  0 16 19]]
+
+2024-05-20 16:00:33.493229
+Length of test set:  167
+Runtime:  401.10921478271484
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Recall:  0.8253968253968254
+     Precision:  0.8188976377952756
+     Precision per value:
+{'shelter': 0.8888888888888888, 'mental health': 0.9310344827586207, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5789473684210527, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8571428571428571, 'mental health': 1.0, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7096774193548387, 'no label': 0}
+     Exact Match Accuracy:  0.7411764705882353
+     Confusion matrix:
+[[24  0  0  0  1  3]
+ [ 0 27  0  0  0  0]
+ [ 0  0 27  0  0  2]
+ [ 0  1  0  4  1  5]
+ [ 0  0  1  0 22  8]
+ [ 3  1  1  0 14 22]]
+Runtime:  398.2125041484833
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Recall:  0.8253968253968254
+     Precision:  0.7938931297709924
+     Precision per value:
+{'shelter': 0.8333333333333334, 'mental health': 0.9310344827586207, 'staying connected': 0.9259259259259259, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5609756097560976, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 1.0, 'staying connected': 0.8620689655172413, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7419354838709677, 'no label': 0}
+     Exact Match Accuracy:  0.7235294117647059
+     Confusion matrix:
+[[25  0  0  0  1  2]
+ [ 0 27  0  0  0  0]
+ [ 0  0 25  0  0  4]
+ [ 0  1  0  4  2  4]
+ [ 0  0  1  0 23  7]
+ [ 5  1  1  0 15 19]]
+Runtime:  383.22476291656494
+Evaluation metrics for ['LLM_7'], Iteration 2:
+     Recall:  0.8095238095238095
+     Precision:  0.7846153846153846
+     Precision per value:
+{'shelter': 0.8275862068965517, 'mental health': 0.9, 'staying connected': 0.9629629629629629, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5476190476190477, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8571428571428571, 'mental health': 1.0, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.18181818181818182, 'help for refugees': 0.7419354838709677, 'no label': 0}
+     Exact Match Accuracy:  0.7058823529411765
+     Confusion matrix:
+[[24  0  0  0  1  3]
+ [ 0 27  0  0  0  0]
+ [ 0  0 26  0  0  3]
+ [ 0  1  0  2  2  6]
+ [ 0  1  0  0 23  7]
+ [ 5  1  1  0 16 18]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 16:24:49.549271
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  386.87014079093933
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Recall:  0.8412698412698413
+     Precision:  0.7910447761194029
+     Precision per value:
+{'shelter': 0.8333333333333334, 'mental health': 0.9, 'staying connected': 1.0, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5454545454545454, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 1.0, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     Exact Match Accuracy:  0.7411764705882353
+     Confusion matrix:
+[[25  0  0  0  1  2]
+ [ 0 27  0  0  0  0]
+ [ 0  0 26  0  0  3]
+ [ 0  1  0  4  4  2]
+ [ 0  1  0  0 24  6]
+ [ 5  1  0  0 15 20]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 17:04:10.152753
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  399.90883898735046
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Recall:  0.8412698412698413
+     Precision:  0.6666666666666666
+     Precision per value:
+{'shelter': 0.5094339622641509, 'mental health': 0.9, 'staying connected': 0.8, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5714285714285714, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9642857142857143, 'mental health': 1.0, 'staying connected': 0.8275862068965517, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     Exact Match Accuracy:  0.6352941176470588
+     Confusion matrix:
+[[24  0  2  0  1  1]
+ [ 6 21  0  0  0  0]
+ [ 0  0 24  0  0  5]
+ [ 1  0  0  4  4  2]
+ [ 1  1  0  0 24  5]
+ [ 6  1  2  0 13 19]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 17:13:17.511603
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  404.36049699783325
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Recall:  0.8412698412698413
+     Precision:  0.6751592356687898
+     Precision per value:
+{'shelter': 0.5, 'mental health': 0.9285714285714286, 'staying connected': 0.8387096774193549, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5714285714285714, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9285714285714286, 'mental health': 0.9629629629629629, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     Exact Match Accuracy:  0.6352941176470588
+     Confusion matrix:
+[[23  0  2  0  1  2]
+ [ 6 20  0  0  0  1]
+ [ 0  0 26  0  0  3]
+ [ 1  0  0  4  3  3]
+ [ 1  0  0  0 24  6]
+ [ 6  1  1  0 14 19]]
+Runtime:  391.7842011451721
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 1:
+     Recall:  0.8571428571428571
+     Precision:  0.675
+     Precision per value:
+{'shelter': 0.5094339622641509, 'mental health': 0.896551724137931, 'staying connected': 0.84375, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5813953488372093, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9642857142857143, 'mental health': 0.9629629629629629, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 0.2727272727272727, 'help for refugees': 0.8064516129032258, 'no label': 0}
+     Exact Match Accuracy:  0.6529411764705882
+     Confusion matrix:
+[[24  0  2  0  1  1]
+ [ 6 21  0  0  0  0]
+ [ 0  0 27  0  0  2]
+ [ 1  0  0  3  3  4]
+ [ 1  1  0  0 25  4]
+ [ 7  1  0  0 14 19]]
+Runtime:  389.3560769557953
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 2:
+     Recall:  0.8333333333333334
+     Precision:  0.65625
+     Precision per value:
+{'shelter': 0.49056603773584906, 'mental health': 0.8666666666666667, 'staying connected': 0.8387096774193549, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5581395348837209, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9285714285714286, 'mental health': 0.9629629629629629, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.2727272727272727, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     Exact Match Accuracy:  0.611764705882353
+     Confusion matrix:
+[[23  0  2  0  1  2]
+ [ 6 20  0  0  0  1]
+ [ 0  0 26  0  0  3]
+ [ 1  0  0  3  4  3]
+ [ 1  1  0  0 24  5]
+ [ 8  2  1  0 14 16]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-20 17:58:19.692095
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  401.8746991157532
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Recall:  0.8412698412698413
+     Precision:  0.6625
+     Precision per value:
+{'shelter': 0.5098039215686274, 'mental health': 0.8709677419354839, 'staying connected': 0.78125, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5714285714285714, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9285714285714286, 'mental health': 1.0, 'staying connected': 0.8620689655172413, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     Exact Match Accuracy:  0.6294117647058823
+     Confusion matrix:
+[[23  0  2  0  1  2]
+ [ 6 21  0  0  0  0]
+ [ 0  0 25  0  0  4]
+ [ 1  0  0  4  4  2]
+ [ 1  1  1  0 24  4]
+ [ 6  2  2  0 13 18]]
+
+
+
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 10:49:06.195900
+Length of test set:  15
+Model:  llama3
+Single label:  True
+Runtime:  0.002279996871948242
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.7142857142857143
+     Recall:  0.4166666666666667
+     F1:  0.5263157894736842
+     Precision per value:
+{'shelter': 0.5, 'mental health': 1.0, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5, 'mental health': 0.25, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 0.5, 'no label': 0}
+     F1 per value: 
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 10:49:59.920956
+Length of test set:  15
+Model:  llama3
+Single label:  True
+Runtime:  0.0033349990844726562
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.7142857142857143
+     Recall:  0.4166666666666667
+     F1:  0.5263157894736842
+     Precision per value:
+{'shelter': 0.5, 'mental health': 1.0, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5, 'mental health': 0.25, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 0.5, 'no label': 0}
+     F1 per value: 
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 10:51:18.724050
+Length of test set:  15
+Model:  llama3
+Single label:  True
+Runtime:  0.0022728443145751953
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.7142857142857143
+     Recall:  0.4166666666666667
+     F1:  0.5263157894736842
+     Precision per value:
+{'shelter': 0.5, 'mental health': 1.0, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5, 'mental health': 0.25, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 0.5, 'no label': 0}
+     F1 per value: 
+[0.5, 0.4, 1.0, -1, 0.6666666666666666, -1]
+     Exact Match Accuracy:  0.041176470588235294
+     Confusion matrix:
+[[2 0 0 0 0 2]
+ [1 0 0 0 0 3]
+ [0 0 1 0 0 0]
+ [1 0 0 0 0 0]
+ [0 0 0 0 1 1]
+ [0 0 0 0 0 3]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 10:51:49.208702
+Length of test set:  15
+Model:  llama3
+Single label:  True
+Runtime:  0.0022673606872558594
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.7142857142857143
+     Recall:  0.4166666666666667
+     F1:  0.5263157894736842
+     Precision per value:
+{'shelter': 0.5, 'mental health': 1.0, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5, 'mental health': 0.25, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 0.5, 'no label': 0}
+     F1 per value: 
+[0.5, 0.4, 1.0, -1, 0.6666666666666666, -1]
+     Exact Match Accuracy:  0.041176470588235294
+     Confusion matrix:
+[[2 0 0 0 0 2]
+ [1 0 0 0 0 3]
+ [0 0 1 0 0 0]
+ [1 0 0 0 0 0]
+ [0 0 0 0 1 1]
+ [0 0 0 0 0 3]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 10:52:05.693151
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.023198843002319336
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.582089552238806
+     Recall:  0.30952380952380953
+     F1:  0.4041450777202073
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.48484848484848486, 0.07142857142857142, 0.6923076923076923, -1, 0.2222222222222222, -1]
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 10:52:21.609458
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.021310806274414062
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.582089552238806
+     Recall:  0.30952380952380953
+     F1:  0.4041450777202073
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.48484848484848486, 0.07142857142857142, 0.6923076923076923, -1, 0.2222222222222222, -1]
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 10:52:46.425609
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.020998239517211914
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.582089552238806
+     Recall:  0.30952380952380953
+     F1:  0.4041450777202073
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.48484848484848486, 0.07142857142857142, 0.6923076923076923, -1, 0.2222222222222222, -1]
+     Exact Match Accuracy:  0.38235294117647056
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 10:59:45.599253
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.018157958984375
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.576271186440678
+     Recall:  0.2698412698412698
+     F1:  0.36756756756756753
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 0, 'staying connected': 0.8235294117647058, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0, 'staying connected': 0.4827586206896552, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.48484848484848486, -1, 0.608695652173913, -1, 0.2285714285714286, -1]
+     Exact Match Accuracy:  0.3941176470588235
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 11:02:01.452347
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.018162012100219727
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.576271186440678
+     Recall:  0.2698412698412698
+     F1:  0.36756756756756753
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 0, 'staying connected': 0.8235294117647058, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0, 'staying connected': 0.4827586206896552, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.48484848484848486, -1, 0.608695652173913, -1, 0.2285714285714286, -1]
+     Exact Match Accuracy:  0.3941176470588235
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 11:02:08.822313
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  0.021336078643798828
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Precision:  0.582089552238806
+     Recall:  0.29545454545454547
+     F1:  0.3919597989949749
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5517241379310345, 'mental health': 0.03571428571428571, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.11764705882352941, 'no label': 0}
+     F1 per value: 
+[0.47761194029850745, 0.0689655172413793, 0.6923076923076923, -1, 0.20512820512820512, -1]
+     Exact Match Accuracy:  0.38235294117647056
+     Partial Correctness Accuracy:  0.8813725490196074
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 11:10:52.389533
+Length of test set:  5
+Model:  llama3
+Single label:  False
+Runtime:  28.66579580307007
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.4
+     Partial Correctness Accuracy:  0.8800000000000001
+     Precision:  0.6
+     Recall:  0.75
+     F1:  0.6666666666666665
+     Precision per value:
+{'shelter': 0.5, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.5, 'no label': 0.0}
+     Recall per value:
+{'shelter': 1.0, 'mental health': 1.0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.5, 'no label': 0}
+     F1 per value: 
+[0.6666666666666666, 1.0, -1, -1, 0.5, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 11:18:02.475202
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  605.4712791442871
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.5294117647058824
+     Partial Correctness Accuracy:  0.8858823529411766
+     Precision:  0.6129032258064516
+     Recall:  0.7196969696969697
+     F1:  0.662020905923345
+     Precision per value:
+{'shelter': 0.7272727272727273, 'mental health': 0.88, 'staying connected': 0.92, 'disappointment in this city/country': 1.0, 'help for refugees': 0.3235294117647059, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8275862068965517, 'mental health': 0.7857142857142857, 'staying connected': 0.7931034482758621, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.6470588235294118, 'no label': 0}
+     F1 per value: 
+[0.7741935483870968, 0.830188679245283, 0.851851851851852, 0.5, 0.4313725490196078, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 11:30:51.745715
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  594.8128371238708
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.5470588235294118
+     Partial Correctness Accuracy:  0.8917647058823531
+     Precision:  0.6282051282051282
+     Recall:  0.7424242424242424
+     F1:  0.6805555555555556
+     Precision per value:
+{'shelter': 0.7352941176470589, 'mental health': 0.92, 'staying connected': 1.0, 'disappointment in this city/country': 0.8, 'help for refugees': 0.30303030303030304, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.8214285714285714, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.5882352941176471, 'no label': 0}
+     F1 per value: 
+[0.7936507936507937, 0.8679245283018867, 0.9454545454545454, 0.47058823529411764, 0.39999999999999997, -1]
+Runtime:  594.7790689468384
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.5058823529411764
+     Partial Correctness Accuracy:  0.9068627450980392
+     Precision:  0.6163522012578616
+     Recall:  0.7424242424242424
+     F1:  0.6735395189003436
+     Precision per value:
+{'shelter': 0.7297297297297297, 'mental health': 0.9090909090909091, 'staying connected': 0.96, 'disappointment in this city/country': 0.8, 'help for refugees': 0.32857142857142857, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9310344827586207, 'mental health': 0.7142857142857143, 'staying connected': 0.8275862068965517, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.6764705882352942, 'no label': 0}
+     F1 per value: 
+[0.8181818181818181, 0.8, 0.888888888888889, 0.47058823529411764, 0.44230769230769235, -1, -1]
+Runtime:  598.7347941398621
+Evaluation metrics for ['LLM_7'], Iteration 2:
+     Exact Match Accuracy:  0.5235294117647059
+     Partial Correctness Accuracy:  0.9210084033613453
+     Precision:  0.6283783783783784
+     Recall:  0.7045454545454546
+     F1:  0.6642857142857143
+     Precision per value:
+{'shelter': 0.75, 'mental health': 0.8888888888888888, 'staying connected': 0.9130434782608695, 'disappointment in this city/country': 0.6, 'help for refugees': 0.3442622950819672, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8275862068965517, 'mental health': 0.8571428571428571, 'staying connected': 0.7241379310344828, 'disappointment in this city/country': 0.25, 'help for refugees': 0.6176470588235294, 'no label': 0}
+     F1 per value: 
+[0.7868852459016394, 0.8727272727272727, 0.8076923076923076, 0.35294117647058826, 0.4421052631578947, -1, -1, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 12:10:21.605375
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  606.9108788967133
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.4411764705882353
+     Partial Correctness Accuracy:  0.8552941176470583
+     Precision:  0.5240641711229946
+     Recall:  0.7424242424242424
+     F1:  0.6144200626959248
+     Precision per value:
+{'shelter': 0.48214285714285715, 'mental health': 0.92, 'staying connected': 0.8, 'disappointment in this city/country': 1.0, 'help for refugees': 0.2876712328767123, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9310344827586207, 'mental health': 0.8214285714285714, 'staying connected': 0.8275862068965517, 'disappointment in this city/country': 0.25, 'help for refugees': 0.6176470588235294, 'no label': 0}
+     F1 per value: 
+[0.6352941176470589, 0.8679245283018867, 0.8135593220338982, 0.4, 0.39252336448598124, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 12:39:41.885715
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  606.9971179962158
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.45294117647058824
+     Partial Correctness Accuracy:  0.8623529411764704
+     Precision:  0.5396825396825397
+     Recall:  0.7727272727272727
+     F1:  0.6355140186915886
+     Precision per value:
+{'shelter': 0.5, 'mental health': 0.9583333333333334, 'staying connected': 0.8333333333333334, 'disappointment in this city/country': 0.75, 'help for refugees': 0.30666666666666664, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9655172413793104, 'mental health': 0.8214285714285714, 'staying connected': 0.8620689655172413, 'disappointment in this city/country': 0.25, 'help for refugees': 0.6764705882352942, 'no label': 0}
+     F1 per value: 
+[0.6588235294117647, 0.8846153846153847, 0.847457627118644, 0.375, 0.42201834862385323, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-21 17:14:44.569242
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  606.3398680686951
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.47058823529411764
+     Partial Correctness Accuracy:  0.8682352941176467
+     Precision:  0.5520833333333334
+     Recall:  0.803030303030303
+     F1:  0.654320987654321
+     Precision per value:
+{'shelter': 0.4827586206896552, 'mental health': 0.9259259259259259, 'staying connected': 0.8125, 'disappointment in this city/country': 1.0, 'help for refugees': 0.3424657534246575, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9655172413793104, 'mental health': 0.8928571428571429, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.16666666666666666, 'help for refugees': 0.7352941176470589, 'no label': 0}
+     F1 per value: 
+[0.6436781609195403, 0.9090909090909091, 0.8524590163934426, 0.2857142857142857, 0.4672897196261682, -1]
+Runtime:  592.2773518562317
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.4823529411764706
+     Partial Correctness Accuracy:  0.8921568627450982
+     Precision:  0.5561224489795918
+     Recall:  0.8257575757575758
+     F1:  0.6646341463414634
+     Precision per value:
+{'shelter': 0.49122807017543857, 'mental health': 0.9230769230769231, 'staying connected': 0.8125, 'disappointment in this city/country': 1.0, 'help for refugees': 0.3333333333333333, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9655172413793104, 'mental health': 0.8571428571428571, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.5, 'help for refugees': 0.7352941176470589, 'no label': 0}
+     F1 per value: 
+[0.6511627906976745, 0.888888888888889, 0.8524590163934426, 0.6666666666666666, 0.45871559633027525, -1, -1]
+Runtime:  586.9716429710388
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 2:
+     Exact Match Accuracy:  0.4411764705882353
+     Partial Correctness Accuracy:  0.9000000000000008
+     Precision:  0.5333333333333333
+     Recall:  0.7878787878787878
+     F1:  0.636085626911315
+     Precision per value:
+{'shelter': 0.4666666666666667, 'mental health': 0.96, 'staying connected': 0.8064516129032258, 'disappointment in this city/country': 0.8, 'help for refugees': 0.3108108108108108, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9655172413793104, 'mental health': 0.8571428571428571, 'staying connected': 0.8620689655172413, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.6764705882352942, 'no label': 0}
+     F1 per value: 
+[0.6292134831460675, 0.9056603773584904, 0.8333333333333334, 0.47058823529411764, 0.42592592592592593, -1, -1, -1]
+
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 11:19:55.683490
+Length of test set:  2
+Model:  mistral
+Single label:  True
+Runtime:  7.872344017028809
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.0
+     Precision:  0.0
+     Recall:  0.0
+     F1:  -1
+     Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 0, 'no label': 0}
+     F1 per value: 
+[-1, -1, -1, -1, -1, -1]
+     Confusion matrix:
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 1]
+ [0 0 0 0 1 0]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 11:22:16.947868
+Length of test set:  167
+Model:  mistral
+Single label:  True
+Runtime:  388.9486291408539
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.7176470588235294
+     Precision:  0.7803030303030303
+     Recall:  0.8174603174603174
+     F1:  0.7984496124031008
+     Precision per value:
+{'shelter': 0.8064516129032258, 'mental health': 0.9259259259259259, 'staying connected': 0.9642857142857143, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5238095238095238, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 0.9259259259259259, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7096774193548387, 'no label': 0}
+     F1 per value: 
+[0.8474576271186439, 0.9259259259259259, 0.9473684210526316, 0.5333333333333333, 0.6027397260273972, -1]
+     Confusion matrix:
+[[25  0  0  0  1  2]
+ [ 0 25  0  0  0  2]
+ [ 0  0 27  0  0  2]
+ [ 0  1  0  4  4  2]
+ [ 0  0  1  0 22  8]
+ [ 6  1  0  0 15 19]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 11:50:41.097527
+Length of test set:  167
+Model:  mistral
+Single label:  True
+Runtime:  412.02143931388855
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.7352941176470589
+     Precision:  0.7923076923076923
+     Recall:  0.8174603174603174
+     F1:  0.8046874999999999
+     Precision per value:
+{'shelter': 0.8888888888888888, 'mental health': 0.9285714285714286, 'staying connected': 0.9629629629629629, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5227272727272727, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8571428571428571, 'mental health': 0.9629629629629629, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7419354838709677, 'no label': 0}
+     F1 per value: 
+[0.8727272727272727, 0.9454545454545454, 0.9285714285714286, 0.5333333333333333, 0.6133333333333333, -1]
+     Confusion matrix:
+[[24  0  0  0  1  3]
+ [ 0 26  0  0  0  1]
+ [ 0  0 26  0  0  3]
+ [ 0  1  0  4  5  1]
+ [ 0  0  1  0 23  7]
+ [ 3  1  0  0 15 22]]
+Runtime:  390.28210711479187
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.7411764705882353
+     Precision:  0.803030303030303
+     Recall:  0.8412698412698413
+     F1:  0.8217054263565892
+     Precision per value:
+{'shelter': 0.8275862068965517, 'mental health': 0.9310344827586207, 'staying connected': 1.0, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5581395348837209, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8571428571428571, 'mental health': 1.0, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     F1 per value: 
+[0.8421052631578947, 0.9642857142857143, 0.9642857142857143, 0.5333333333333333, 0.6486486486486487, -1, -1]
+     Confusion matrix:
+[[24  0  0  0  1  3]
+ [ 0 27  0  0  0  0]
+ [ 0  0 27  0  0  2]
+ [ 0  1  0  4  3  3]
+ [ 0  0  0  0 24  7]
+ [ 5  1  0  0 15 20]]
+Runtime:  390.86737394332886
+Evaluation metrics for ['LLM_7'], Iteration 2:
+     Exact Match Accuracy:  0.7352941176470589
+     Precision:  0.7954545454545454
+     Recall:  0.8333333333333334
+     F1:  0.8139534883720929
+     Precision per value:
+{'shelter': 0.8846153846153846, 'mental health': 0.9310344827586207, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5454545454545454, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8214285714285714, 'mental health': 1.0, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     F1 per value: 
+[0.8518518518518519, 0.9642857142857143, 0.9310344827586207, 0.5333333333333333, 0.64, -1, -1, -1]
+     Confusion matrix:
+[[23  0  0  0  1  4]
+ [ 0 27  0  0  0  0]
+ [ 0  0 27  0  0  2]
+ [ 0  1  0  4  3  3]
+ [ 0  0  1  0 24  6]
+ [ 3  1  1  0 16 20]]
+Runtime:  381.6717677116394
+Evaluation metrics for ['LLM_7'], Iteration 3:
+     Exact Match Accuracy:  0.7176470588235294
+     Precision:  0.7761194029850746
+     Recall:  0.8253968253968254
+     F1:  0.8
+     Precision per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.9310344827586207, 'staying connected': 0.9259259259259259, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5217391304347826, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 1.0, 'staying connected': 0.8620689655172413, 'disappointment in this city/country': 0.2727272727272727, 'help for refugees': 0.7741935483870968, 'no label': 0}
+     F1 per value: 
+[0.8771929824561403, 0.9642857142857143, 0.8928571428571429, 0.42857142857142855, 0.6233766233766235, -1, -1, -1, -1]
+     Confusion matrix:
+[[25  0  0  0  1  2]
+ [ 0 27  0  0  0  0]
+ [ 0  0 25  0  0  4]
+ [ 0  1  0  3  4  3]
+ [ 0  0  1  0 24  6]
+ [ 4  1  1  0 17 18]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 12:24:30.942047
+Length of test set:  167
+Model:  gemma
+Single label:  True
+Runtime:  402.7680809497833
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.7529411764705882
+     Precision:  0.8045112781954887
+     Recall:  0.8492063492063492
+     F1:  0.8262548262548262
+     Precision per value:
+{'shelter': 0.8214285714285714, 'mental health': 0.9, 'staying connected': 1.0, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5909090909090909, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8214285714285714, 'mental health': 1.0, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.8387096774193549, 'no label': 0}
+     F1 per value: 
+[0.8214285714285714, 0.9473684210526316, 0.9642857142857143, 0.5333333333333333, 0.6933333333333334, -1]
+     Confusion matrix:
+[[23  0  0  0  1  4]
+ [ 0 27  0  0  0  0]
+ [ 0  0 27  0  0  2]
+ [ 0  1  0  4  3  3]
+ [ 0  1  0  0 26  4]
+ [ 5  1  0  0 14 21]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 12:34:36.335548
+Length of test set:  167
+Model:  gemma
+Single label:  True
+Runtime:  397.6955420970917
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.7176470588235294
+     Precision:  0.7890625
+     Recall:  0.8015873015873016
+     F1:  0.7952755905511811
+     Precision per value:
+{'shelter': 0.8333333333333334, 'mental health': 0.896551724137931, 'staying connected': 0.96, 'disappointment in this city/country': 1.0, 'help for refugees': 0.55, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 0.9629629629629629, 'staying connected': 0.8275862068965517, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7096774193548387, 'no label': 0}
+     F1 per value: 
+[0.8620689655172413, 0.9285714285714286, 0.888888888888889, 0.5333333333333333, 0.619718309859155, -1]
+     Confusion matrix:
+[[25  0  0  0  1  2]
+ [ 0 26  0  0  0  1]
+ [ 0  0 24  0  0  5]
+ [ 0  1  0  4  3  3]
+ [ 0  1  1  0 22  7]
+ [ 5  1  0  0 14 21]]
+Runtime:  388.62630820274353
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.7352941176470589
+     Precision:  0.8062015503875969
+     Recall:  0.8253968253968254
+     F1:  0.815686274509804
+     Precision per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.9, 'staying connected': 0.9615384615384616, 'disappointment in this city/country': 1.0, 'help for refugees': 0.575, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 1.0, 'staying connected': 0.8620689655172413, 'disappointment in this city/country': 0.36363636363636365, 'help for refugees': 0.7419354838709677, 'no label': 0}
+     F1 per value: 
+[0.8771929824561403, 0.9473684210526316, 0.9090909090909091, 0.5333333333333333, 0.6478873239436619, -1, -1]
+     Confusion matrix:
+[[25  0  0  0  1  2]
+ [ 0 27  0  0  0  0]
+ [ 0  0 25  0  0  4]
+ [ 0  1  0  4  1  5]
+ [ 0  1  1  0 23  6]
+ [ 4  1  0  0 15 21]]
+Runtime:  391.86432003974915
+Evaluation metrics for ['LLM_7'], Iteration 2:
+     Exact Match Accuracy:  0.7411764705882353
+     Precision:  0.8110236220472441
+     Recall:  0.8174603174603174
+     F1:  0.8142292490118577
+     Precision per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.9259259259259259, 'staying connected': 0.9629629629629629, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5952380952380952, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 0.9259259259259259, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.18181818181818182, 'help for refugees': 0.8064516129032258, 'no label': 0}
+     F1 per value: 
+[0.8771929824561403, 0.9259259259259259, 0.9285714285714286, 0.3076923076923077, 0.684931506849315, -1, -1, -1]
+     Confusion matrix:
+[[25  0  0  0  1  2]
+ [ 0 25  0  0  0  2]
+ [ 0  0 26  0  0  3]
+ [ 0  1  0  2  3  5]
+ [ 0  0  1  0 25  5]
+ [ 4  1  0  0 13 23]]
+Runtime:  392.5049960613251
+Evaluation metrics for ['LLM_7'], Iteration 3:
+     Exact Match Accuracy:  0.7529411764705882
+     Precision:  0.7985074626865671
+     Recall:  0.8492063492063492
+     F1:  0.823076923076923
+     Precision per value:
+{'shelter': 0.8928571428571429, 'mental health': 0.9310344827586207, 'staying connected': 0.9642857142857143, 'disappointment in this city/country': 1.0, 'help for refugees': 0.5434782608695652, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 1.0, 'staying connected': 0.9310344827586207, 'disappointment in this city/country': 0.2727272727272727, 'help for refugees': 0.8064516129032258, 'no label': 0}
+     F1 per value: 
+[0.8928571428571429, 0.9642857142857143, 0.9473684210526316, 0.42857142857142855, 0.6493506493506493, -1, -1, -1, -1]
+     Confusion matrix:
+[[25  0  0  0  1  2]
+ [ 0 27  0  0  0  0]
+ [ 0  0 27  0  0  2]
+ [ 0  1  0  3  5  2]
+ [ 0  0  0  0 25  6]
+ [ 3  1  1  0 15 21]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 15:13:02.863897
+Length of test set:  1
+Model:  mistral
+Single label:  False
+Runtime:  8.93979287147522
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  1.0
+     Partial Correctness Accuracy:  1.0
+     Precision:  1.0
+     Recall:  1.0
+     F1:  1.0
+     Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+     Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+     F1 per value: 
+[-1, -1, -1, -1, 1.0, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 15:14:10.139581
+Length of test set:  170
+Model:  mistral
+Single label:  False
+Runtime:  590.9056870937347
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.5294117647058824
+     Partial Correctness Accuracy:  0.8894117647058822
+     Precision:  0.6172839506172839
+     Recall:  0.7575757575757576
+     F1:  0.6802721088435375
+     Precision per value:
+{'shelter': 0.7105263157894737, 'mental health': 0.9615384615384616, 'staying connected': 0.8846153846153846, 'disappointment in this city/country': 1.0, 'help for refugees': 0.3088235294117647, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9310344827586207, 'mental health': 0.8928571428571429, 'staying connected': 0.7931034482758621, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.6176470588235294, 'no label': 0}
+     F1 per value: 
+[0.8059701492537312, 0.9259259259259259, 0.8363636363636363, 0.5, 0.4117647058823529, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 18:05:40.608190
+Length of test set:  170
+Model:  mistral
+Single label:  False
+Runtime:  595.746514081955
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.5
+     Partial Correctness Accuracy:  0.8905882352941177
+     Precision:  0.6196319018404908
+     Recall:  0.7651515151515151
+     F1:  0.6847457627118644
+     Precision per value:
+{'shelter': 0.7058823529411765, 'mental health': 0.9615384615384616, 'staying connected': 1.0, 'disappointment in this city/country': 1.0, 'help for refugees': 0.32, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8275862068965517, 'mental health': 0.8928571428571429, 'staying connected': 0.7931034482758621, 'disappointment in this city/country': 0.4166666666666667, 'help for refugees': 0.7058823529411765, 'no label': 0}
+     F1 per value: 
+[0.7619047619047619, 0.9259259259259259, 0.8846153846153846, 0.5882352941176471, 0.44036697247706424, -1]
+Runtime:  585.2286159992218
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.5
+     Partial Correctness Accuracy:  0.9019607843137254
+     Precision:  0.6052631578947368
+     Recall:  0.696969696969697
+     F1:  0.6478873239436619
+     Precision per value:
+{'shelter': 0.75, 'mental health': 0.9259259259259259, 'staying connected': 0.92, 'disappointment in this city/country': 0.8333333333333334, 'help for refugees': 0.24193548387096775, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8275862068965517, 'mental health': 0.8928571428571429, 'staying connected': 0.7931034482758621, 'disappointment in this city/country': 0.4166666666666667, 'help for refugees': 0.4411764705882353, 'no label': 0}
+     F1 per value: 
+[0.7868852459016394, 0.9090909090909091, 0.851851851851852, 0.5555555555555556, 0.3125, -1, -1]
+Runtime:  582.8046808242798
+Evaluation metrics for ['LLM_7'], Iteration 2:
+     Exact Match Accuracy:  0.5235294117647059
+     Partial Correctness Accuracy:  0.9218487394957988
+     Precision:  0.6242038216560509
+     Recall:  0.7424242424242424
+     F1:  0.6782006920415224
+     Precision per value:
+{'shelter': 0.7142857142857143, 'mental health': 1.0, 'staying connected': 0.88, 'disappointment in this city/country': 0.8, 'help for refugees': 0.3181818181818182, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.9285714285714286, 'staying connected': 0.7586206896551724, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.6176470588235294, 'no label': 0}
+     F1 per value: 
+[0.7812500000000001, 0.962962962962963, 0.8148148148148148, 0.47058823529411764, 0.42000000000000004, -1, -1, -1]
+Runtime:  594.9311890602112
+Evaluation metrics for ['LLM_7'], Iteration 3:
+     Exact Match Accuracy:  0.5411764705882353
+     Partial Correctness Accuracy:  0.9323529411764706
+     Precision:  0.6265822784810127
+     Recall:  0.75
+     F1:  0.6827586206896552
+     Precision per value:
+{'shelter': 0.6756756756756757, 'mental health': 0.9259259259259259, 'staying connected': 0.96, 'disappointment in this city/country': 1.0, 'help for refugees': 0.3125, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.8928571428571429, 'staying connected': 0.8275862068965517, 'disappointment in this city/country': 0.4166666666666667, 'help for refugees': 0.5882352941176471, 'no label': 0}
+     F1 per value: 
+[0.7575757575757576, 0.9090909090909091, 0.888888888888889, 0.5882352941176471, 0.40816326530612246, -1, -1, -1, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-22 18:59:28.641719
+Length of test set:  170
+Model:  gemma
+Single label:  False
+Runtime:  597.8188889026642
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.5058823529411764
+     Partial Correctness Accuracy:  0.8823529411764706
+     Precision:  0.6
+     Recall:  0.7272727272727273
+     F1:  0.6575342465753425
+     Precision per value:
+{'shelter': 0.675, 'mental health': 0.9259259259259259, 'staying connected': 0.92, 'disappointment in this city/country': 0.75, 'help for refugees': 0.28125, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.9310344827586207, 'mental health': 0.8928571428571429, 'staying connected': 0.7931034482758621, 'disappointment in this city/country': 0.25, 'help for refugees': 0.5294117647058824, 'no label': 0}
+     F1 per value: 
+[0.7826086956521738, 0.9090909090909091, 0.851851851851852, 0.375, 0.3673469387755102, -1]
+Runtime:  597.0102498531342
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.5
+     Partial Correctness Accuracy:  0.9039215686274512
+     Precision:  0.6075949367088608
+     Recall:  0.7272727272727273
+     F1:  0.6620689655172415
+     Precision per value:
+{'shelter': 0.7142857142857143, 'mental health': 1.0, 'staying connected': 0.8846153846153846, 'disappointment in this city/country': 0.75, 'help for refugees': 0.3142857142857143, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.8214285714285714, 'staying connected': 0.7931034482758621, 'disappointment in this city/country': 0.25, 'help for refugees': 0.6470588235294118, 'no label': 0}
+     F1 per value: 
+[0.7812500000000001, 0.9019607843137255, 0.8363636363636363, 0.375, 0.4230769230769231, -1, -1]
+Runtime:  598.5076801776886
+Evaluation metrics for ['LLM_7'], Iteration 2:
+     Exact Match Accuracy:  0.49411764705882355
+     Partial Correctness Accuracy:  0.9159663865546226
+     Precision:  0.6038961038961039
+     Recall:  0.7045454545454546
+     F1:  0.6503496503496504
+     Precision per value:
+{'shelter': 0.7096774193548387, 'mental health': 0.9230769230769231, 'staying connected': 0.8846153846153846, 'disappointment in this city/country': 0.75, 'help for refugees': 0.31343283582089554, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.7586206896551724, 'mental health': 0.8571428571428571, 'staying connected': 0.7931034482758621, 'disappointment in this city/country': 0.25, 'help for refugees': 0.6176470588235294, 'no label': 0}
+     F1 per value: 
+[0.7333333333333333, 0.888888888888889, 0.8363636363636363, 0.375, 0.4158415841584158, -1, -1, -1]
+Runtime:  591.9348571300507
+Evaluation metrics for ['LLM_7'], Iteration 3:
+     Exact Match Accuracy:  0.5117647058823529
+     Partial Correctness Accuracy:  0.9279411764705883
+     Precision:  0.6103896103896104
+     Recall:  0.7121212121212122
+     F1:  0.6573426573426574
+     Precision per value:
+{'shelter': 0.7142857142857143, 'mental health': 0.8846153846153846, 'staying connected': 0.9583333333333334, 'disappointment in this city/country': 0.8, 'help for refugees': 0.296875, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.8214285714285714, 'staying connected': 0.7931034482758621, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.5588235294117647, 'no label': 0}
+     F1 per value: 
+[0.7812500000000001, 0.8518518518518519, 0.8679245283018867, 0.47058823529411764, 0.3877551020408163, -1, -1, -1, -1]
+Runtime:  589.4111039638519
+Evaluation metrics for ['LLM_7'], Iteration 4:
+     Exact Match Accuracy:  0.5352941176470588
+     Partial Correctness Accuracy:  0.9385620915032669
+     Precision:  0.61875
+     Recall:  0.75
+     F1:  0.6780821917808221
+     Precision per value:
+{'shelter': 0.7419354838709677, 'mental health': 0.8888888888888888, 'staying connected': 0.9629629629629629, 'disappointment in this city/country': 0.8, 'help for refugees': 0.3142857142857143, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.7931034482758621, 'mental health': 0.8571428571428571, 'staying connected': 0.896551724137931, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.6470588235294118, 'no label': 0}
+     F1 per value: 
+[0.7666666666666667, 0.8727272727272727, 0.9285714285714286, 0.47058823529411764, 0.4230769230769231, -1, -1, -1, -1, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-23 10:50:33.181432
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  606.2531757354736
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.5294117647058824
+     Partial Correctness Accuracy:  0.8894117647058825
+     Precision:  0.6233766233766234
+     Recall:  0.7272727272727273
+     F1:  0.6713286713286714
+     Precision per value:
+{'shelter': 0.7352941176470589, 'mental health': 0.9583333333333334, 'staying connected': 0.9565217391304348, 'disappointment in this city/country': 0.8, 'help for refugees': 0.3235294117647059, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8620689655172413, 'mental health': 0.8214285714285714, 'staying connected': 0.7586206896551724, 'disappointment in this city/country': 0.3333333333333333, 'help for refugees': 0.6470588235294118, 'no label': 0}
+     F1 per value: 
+[0.7936507936507937, 0.8846153846153847, 0.8461538461538461, 0.47058823529411764, 0.4313725490196078, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-23 11:20:46.935041
+Length of test set:  2
+Model:  llama3
+Single label:  True
+Runtime:  13.168037176132202
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.011764705882352941
+     Precision:  1.0
+     Recall:  1.0
+     F1:  1.0
+     Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+     F1 per value: 
+[-1, -1, -1, -1, 1.0, -1]
+     Confusion matrix:
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 1 0]
+ [0 0 0 0 0 1]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-23 11:22:55.467042
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  369.4245488643646
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.6294117647058823
+     Precision:  0.79
+     Recall:  0.626984126984127
+     F1:  0.6991150442477876
+     Precision per value:
+{'shelter': 0.7586206896551724, 'mental health': 1.0, 'staying connected': 0.9090909090909091, 'disappointment in this city/country': 1.0, 'help for refugees': 0.52, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.7857142857142857, 'mental health': 0.8148148148148148, 'staying connected': 0.6896551724137931, 'disappointment in this city/country': 0.18181818181818182, 'help for refugees': 0.41935483870967744, 'no label': 0}
+     F1 per value: 
+[0.7719298245614034, 0.8979591836734693, 0.7843137254901961, 0.3076923076923077, 0.46428571428571425, -1]
+     Confusion matrix:
+[[22  0  0  0  0  6]
+ [ 0 22  0  0  1  4]
+ [ 0  0 20  0  0  9]
+ [ 1  0  0  2  2  6]
+ [ 3  0  1  0 13 14]
+ [ 3  0  1  0  9 28]]
+Runtime:  365.6422030925751
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.6352941176470588
+     Precision:  0.7614678899082569
+     Recall:  0.6587301587301587
+     F1:  0.7063829787234043
+     Precision per value:
+{'shelter': 0.6857142857142857, 'mental health': 0.88, 'staying connected': 0.9523809523809523, 'disappointment in this city/country': 0, 'help for refugees': 0.6071428571428571, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8571428571428571, 'mental health': 0.8148148148148148, 'staying connected': 0.6896551724137931, 'disappointment in this city/country': 0, 'help for refugees': 0.5483870967741935, 'no label': 0}
+     F1 per value: 
+[0.7619047619047619, 0.8461538461538461, 0.7999999999999999, -1, 0.5762711864406779, -1, -1]
+     Confusion matrix:
+[[24  0  0  0  0  4]
+ [ 0 22  0  0  0  5]
+ [ 0  0 20  0  0  9]
+ [ 1  3  0  0  2  5]
+ [ 4  0  0  0 17 10]
+ [ 6  0  1  0  9 25]]
+Runtime:  368.22878408432007
+Evaluation metrics for ['LLM_7'], Iteration 2:
+     Exact Match Accuracy:  0.6411764705882353
+     Precision:  0.8144329896907216
+     Recall:  0.626984126984127
+     F1:  0.7085201793721972
+     Precision per value:
+{'shelter': 0.7931034482758621, 'mental health': 0.9545454545454546, 'staying connected': 0.9, 'disappointment in this city/country': 0, 'help for refugees': 0.6538461538461539, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8214285714285714, 'mental health': 0.7777777777777778, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.5483870967741935, 'no label': 0}
+     F1 per value: 
+[0.8070175438596492, 0.8571428571428572, 0.7346938775510204, -1, 0.5964912280701755, -1, -1, -1]
+     Confusion matrix:
+[[23  0  0  0  0  5]
+ [ 0 21  0  0  0  6]
+ [ 0  0 18  0  0 11]
+ [ 1  1  0  0  1  8]
+ [ 3  0  1  0 17 10]
+ [ 2  0  1  0  8 30]]
+Runtime:  368.133348941803
+Evaluation metrics for ['LLM_7'], Iteration 3:
+     Exact Match Accuracy:  0.6470588235294118
+     Precision:  0.7818181818181819
+     Recall:  0.6825396825396826
+     F1:  0.7288135593220338
+     Precision per value:
+{'shelter': 0.6764705882352942, 'mental health': 1.0, 'staying connected': 0.9545454545454546, 'disappointment in this city/country': 1.0, 'help for refugees': 0.6129032258064516, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8214285714285714, 'mental health': 0.8148148148148148, 'staying connected': 0.7241379310344828, 'disappointment in this city/country': 0.09090909090909091, 'help for refugees': 0.6129032258064516, 'no label': 0}
+     F1 per value: 
+[0.7419354838709677, 0.8979591836734693, 0.823529411764706, 0.16666666666666669, 0.6129032258064516, -1, -1, -1, -1]
+     Confusion matrix:
+[[23  0  0  0  0  5]
+ [ 0 22  0  0  1  4]
+ [ 0  0 21  0  0  8]
+ [ 1  0  0  1  1  8]
+ [ 3  0  1  0 19  8]
+ [ 7  0  0  0 10 24]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-23 11:52:36.726016
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  375.31342792510986
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.6647058823529411
+     Precision:  0.8217821782178217
+     Recall:  0.6587301587301587
+     F1:  0.7312775330396475
+     Precision per value:
+{'shelter': 0.7352941176470589, 'mental health': 0.96, 'staying connected': 0.95, 'disappointment in this city/country': 0, 'help for refugees': 0.6818181818181818, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.8928571428571429, 'mental health': 0.8888888888888888, 'staying connected': 0.6551724137931034, 'disappointment in this city/country': 0, 'help for refugees': 0.4838709677419355, 'no label': 0}
+     F1 per value: 
+[0.806451612903226, 0.923076923076923, 0.7755102040816326, -1, 0.5660377358490567, -1]
+     Confusion matrix:
+[[25  0  0  0  0  3]
+ [ 0 24  0  0  0  3]
+ [ 0  0 19  0  0 10]
+ [ 1  1  0  0  2  7]
+ [ 3  0  0  0 15 13]
+ [ 5  0  1  0  5 30]]
+
+--------------------------------------------------------------------------------------------------
+2024-05-23 12:09:44.919972
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  585.3884570598602
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.4764705882352941
+     Partial Correctness Accuracy:  0.8811764705882353
+     Precision:  0.6165413533834586
+     Recall:  0.6212121212121212
+     F1:  0.6188679245283019
+     Precision per value:
+{'shelter': 0.875, 'mental health': 1.0, 'staying connected': 0.9375, 'disappointment in this city/country': 1.0, 'help for refugees': 0.3472222222222222, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.7241379310344828, 'mental health': 0.6785714285714286, 'staying connected': 0.5172413793103449, 'disappointment in this city/country': 0.16666666666666666, 'help for refugees': 0.7352941176470589, 'no label': 0}
+     F1 per value: 
+[0.7924528301886793, 0.8085106382978724, 0.6666666666666667, 0.2857142857142857, 0.4716981132075472, -1]
+Runtime:  571.969484090805
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.45294117647058824
+     Partial Correctness Accuracy:  0.9009803921568627
+     Precision:  0.6148148148148148
+     Recall:  0.6287878787878788
+     F1:  0.6217228464419476
+     Precision per value:
+{'shelter': 0.9130434782608695, 'mental health': 1.0, 'staying connected': 0.9444444444444444, 'disappointment in this city/country': 1.0, 'help for refugees': 0.3194444444444444, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.7241379310344828, 'mental health': 0.75, 'staying connected': 0.5862068965517241, 'disappointment in this city/country': 0.08333333333333333, 'help for refugees': 0.6764705882352942, 'no label': 0}
+     F1 per value: 
+[0.8076923076923076, 0.8571428571428571, 0.7234042553191489, 0.15384615384615385, 0.4339622641509434, -1, -1]
+Runtime:  567.482579946518
+Evaluation metrics for ['LLM_7'], Iteration 2:
+     Exact Match Accuracy:  0.4411764705882353
+     Partial Correctness Accuracy:  0.9100840336134465
+     Precision:  0.5984251968503937
+     Recall:  0.5757575757575758
+     F1:  0.5868725868725868
+     Precision per value:
+{'shelter': 0.95, 'mental health': 1.0, 'staying connected': 0.9473684210526315, 'disappointment in this city/country': 1.0, 'help for refugees': 0.3, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.6551724137931034, 'mental health': 0.6071428571428571, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0.08333333333333333, 'help for refugees': 0.6176470588235294, 'no label': 0}
+     F1 per value: 
+[0.7755102040816326, 0.7555555555555554, 0.75, 0.15384615384615385, 0.40384615384615385, -1, -1, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-05-30 08:58:56.170873
+Length of test set:  2
+Model:  llama3
+Single label:  True
+Runtime:  13.456671953201294
+Evaluation metrics for ['LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.011764705882352941
+     Precision:  1.0
+     Recall:  1.0
+     F1:  1.0
+     Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+     F1 per value: 
+[-1, -1, -1, -1, 1.0, -1]
+     Confusion matrix:
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 1 0]
+ [0 0 0 0 0 1]]
+Runtime:  4.023207902908325
+Evaluation metrics for ['LLM_7'], Iteration 1:
+     Exact Match Accuracy:  0.011764705882352941
+     Precision:  1.0
+     Recall:  1.0
+     F1:  1.0
+     Precision per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0, 'mental health': 0, 'staying connected': 0, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0}
+     F1 per value: 
+[-1, -1, -1, -1, 1.0, -1, -1]
+     Confusion matrix:
+[[0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 0 0]
+ [0 0 0 0 1 0]
+ [0 0 0 0 0 1]]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 13:34:17.161859
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  0.02171492576599121
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Exact Match Accuracy:  0.38235294117647056
+     Partial Correctness Accuracy:  0.857647058823529
+     Precision:  0.582089552238806
+     Recall:  0.29545454545454547
+     F1:  0.3919597989949749
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5517241379310345, 'mental health': 0.03571428571428571, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.11764705882352941, 'no label': 0}
+     F1 per value: 
+[0.47761194029850745, 0.0689655172413793, 0.6923076923076923, -1, 0.20512820512820512, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:07:11.308589
+Length of test set:  170
+Model:  llama3
+Single label:  False
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:08:16.557755
+Length of test set:  170
+Model:  llama3
+Single label:  False
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:12:46.011354
+Length of test set:  170
+Model:  llama3
+Single label:  False
+Runtime:  0.022304058074951172
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Exact Match Accuracy:  0.38235294117647056
+     Partial Correctness Accuracy:  0.857647058823529
+     Precision:  0.582089552238806
+     Recall:  0.29545454545454547
+     F1:  0.3919597989949749
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 1.0, 'staying connected': 0.782608695652174, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5517241379310345, 'mental health': 0.03571428571428571, 'staying connected': 0.6206896551724138, 'disappointment in this city/country': 0, 'help for refugees': 0.11764705882352941, 'no label': 0}
+     F1 per value: 
+[0.47761194029850745, 0.0689655172413793, 0.6923076923076923, -1, 0.20512820512820512, -1]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:13:01.126229
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.018242835998535156
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Exact Match Accuracy:  0.3941176470588235
+     Precision:  0.576271186440678
+     Recall:  0.2698412698412698
+     F1:  0.36756756756756753
+     Precision per value:
+{'shelter': 0.42105263157894735, 'mental health': 0, 'staying connected': 0.8235294117647058, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0, 'staying connected': 0.4827586206896552, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.48484848484848486, -1, 0.608695652173913, -1, 0.2285714285714286, -1]
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:19:33.699097
+Length of test set:  167
+Model:  llama3
+Single label:  True
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:20:23.818401
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.02147197723388672
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Exact Match Accuracy:  0.38823529411764707
+     Precision:  0.559322033898305
+     Recall:  0.2619047619047619
+     F1:  0.3567567567567568
+     Precision per value:
+{'shelter': 0.4166666666666667, 'mental health': 0, 'staying connected': 0.7777777777777778, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5357142857142857, 'mental health': 0, 'staying connected': 0.4827586206896552, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.46875000000000006, -1, 0.5957446808510638, -1, 0.2222222222222222, -1]
+     Confusion matrix:
+[[15  0  1  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 4  0 14  0  0 11]
+ [ 1  0  0  0  1  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:21:16.993970
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.021695852279663086
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Exact Match Accuracy:  0.38823529411764707
+     Precision:  0.559322033898305
+     Recall:  0.2619047619047619
+     F1:  0.3567567567567568
+     Precision per value:
+{'shelter': 0.4, 'mental health': 0, 'staying connected': 0.75, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5, 'mental health': 0, 'staying connected': 0.5172413793103449, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.4444444444444445, -1, 0.6122448979591838, -1, 0.2285714285714286, -1]
+     Confusion matrix:
+[[14  0  2  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 3  0 15  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:21:33.877401
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.021655797958374023
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Exact Match Accuracy:  0.3941176470588235
+     Precision:  0.576271186440678
+     Recall:  0.2698412698412698
+     F1:  0.36756756756756753
+     Precision per value:
+{'shelter': 0.42857142857142855, 'mental health': 0, 'staying connected': 0.7894736842105263, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5357142857142857, 'mental health': 0, 'staying connected': 0.5172413793103449, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.47619047619047616, -1, 0.625, -1, 0.2222222222222222, -1]
+     Confusion matrix:
+[[15  0  1  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 3  0 15  0  0 11]
+ [ 1  0  0  0  1  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:21:46.072498
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.021534204483032227
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Exact Match Accuracy:  0.3941176470588235
+     Precision:  0.576271186440678
+     Recall:  0.2698412698412698
+     F1:  0.36756756756756753
+     Precision per value:
+{'shelter': 0.42424242424242425, 'mental health': 0, 'staying connected': 0.7619047619047619, 'disappointment in this city/country': 0, 'help for refugees': 0.8, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5, 'mental health': 0, 'staying connected': 0.5517241379310345, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.4590163934426229, -1, 0.64, -1, 0.2222222222222222, -1]
+     Confusion matrix:
+[[14  0  2  0  0 12]
+ [ 6  0  0  0  0 21]
+ [ 2  0 16  0  0 11]
+ [ 1  0  0  0  1  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 14:22:40.658850
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  0.02144908905029297
+Evaluation metrics for ['Dictionary'], Iteration 0:
+     Exact Match Accuracy:  0.4176470588235294
+     Precision:  0.6440677966101694
+     Recall:  0.30158730158730157
+     F1:  0.41081081081081083
+     Precision per value:
+{'shelter': 0.47058823529411764, 'mental health': 1.0, 'staying connected': 0.85, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5714285714285714, 'mental health': 0.037037037037037035, 'staying connected': 0.5862068965517241, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.5161290322580646, 0.07142857142857142, 0.6938775510204082, -1, 0.2285714285714286, -1]
+     Confusion matrix:
+[[16  0  0  0  0 12]
+ [ 5  1  0  0  0 21]
+ [ 1  0 17  0  0 11]
+ [ 2  0  0  0  0  9]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 15:26:57.919039
+Length of test set:  20
+Model:  llama3
+Single label:  True
+Runtime:  54.26966691017151
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.047058823529411764
+     Precision:  0.625
+     Recall:  0.3125
+     F1:  0.4166666666666667
+     Precision per value:
+{'shelter': 0.5, 'mental health': 0, 'staying connected': 0.6666666666666666, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.4, 'mental health': 0, 'staying connected': 1.0, 'disappointment in this city/country': 0, 'help for refugees': 0.3333333333333333, 'no label': 0}
+     F1 per value: 
+[0.4444444444444445, -1, 0.8, -1, 0.5, -1]
+     Confusion matrix:
+[[2 0 0 0 0 3]
+ [0 0 0 0 0 5]
+ [0 0 2 0 0 0]
+ [1 0 0 0 0 0]
+ [0 0 1 0 1 1]
+ [1 0 0 0 0 3]]
+
+--------------------------------------------------------------------------------------------------
+2024-06-26 15:30:48.374326
+Length of test set:  167
+Model:  llama3
+Single label:  True
+Runtime:  370.28960490226746
+Evaluation metrics for ['Dictionary', 'LLM_7'], Iteration 0:
+     Exact Match Accuracy:  0.38235294117647056
+     Precision:  0.6274509803921569
+     Recall:  0.25396825396825395
+     F1:  0.36158192090395475
+     Precision per value:
+{'shelter': 0.4666666666666667, 'mental health': 0, 'staying connected': 0.8235294117647058, 'disappointment in this city/country': 0, 'help for refugees': 1.0, 'no label': 0.0}
+     Recall per value:
+{'shelter': 0.5, 'mental health': 0, 'staying connected': 0.4827586206896552, 'disappointment in this city/country': 0, 'help for refugees': 0.12903225806451613, 'no label': 0}
+     F1 per value: 
+[0.4827586206896552, -1, 0.608695652173913, -1, 0.2285714285714286, -1]
+     Confusion matrix:
+[[14  0  0  0  0 14]
+ [ 5  0  0  0  0 22]
+ [ 0  0 14  0  0 15]
+ [ 1  0  0  0  0 10]
+ [ 3  0  2  0  4 22]
+ [ 7  0  1  0  0 33]]
